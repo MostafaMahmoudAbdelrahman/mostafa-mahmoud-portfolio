@@ -57,6 +57,16 @@ Experienced Senior Unity Developer with 7+ years in VR, multiplayer games, and s
 _Aug 2024 – Present_  
 - Lead development of mobile multiplayer games and interactive experiences.
 
+**Senior Unity Developer (Part-time)**  
+<a href="https://www.cyberx.world/" target="_blank" rel="noopener noreferrer">
+  <span>
+    <strong>CyberX</strong>
+    <img src="resources/cyberx-logo.svg" alt="CyberX Logo" width="20" style="margin-left:10px; vertical-align:middle;" />
+  </span>
+</a>  
+_Aug 2024 – Present_  
+- Contributing to innovative Unity projects and VR experiences as a part-time developer.
+
 **Senior Unity Developer**  
 <a href="https://arconme.com/" target="_blank">
   <span>
