@@ -18,7 +18,6 @@
       </p>
       <p>
         <a href="https://eg.linkedin.com/in/mostafa-mahmoud-abdelrahman">LinkedIn</a> | 
-        <a href="PORTFOLIO.md">Portfolio Website</a> | 
       </p>
     </td>
   </tr>
@@ -205,4 +204,4 @@ Specialized in Computer Science
 [📱 WhatsApp](https://wa.me/966560358978)
 
 📧 drshdrsh26@yahoo.com  
-[LinkedIn](https://eg.linkedin.com/in/mostafa-mahmoud-abdelrahman) | [Portfolio](PORTFOLIO.md)
+[LinkedIn](https://eg.linkedin.com/in/mostafa-mahmoud-abdelrahman)
