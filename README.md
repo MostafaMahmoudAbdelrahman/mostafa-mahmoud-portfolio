@@ -90,8 +90,8 @@ _Apr 2022 – Jul 2024_
 <a href="https://global-business-strategies.com/" target="_blank">
   <span>
     <strong>Global Business Strategies (GBS)</strong>
-    <img src="resources/gbs-logo.png" alt="GBS Logo" width="20" style="margin-left:10px; vertical-align:middle;" />
-  </span>
+<!--     <img src="resources/gbs-logo.png" alt="GBS Logo" width="20" style="margin-left:10px; vertical-align:middle;" />
+ -->  </span>
 </a>  
 _Feb 2022 – Feb 2023_  
 - Collaborated remotely on simulation projects for meetings and events, delivering Unity-based solutions with strong C# expertise.
