@@ -291,9 +291,8 @@ Specialized in Computer Science
 
 ## Contact
 
-📞 Phone: +201017800204  
-📱 WhatsApp: [wa.me/966560358978](https://wa.me/966560358978)  
+📞 **Phone:** +201017800204  
+📱 **WhatsApp:** [Chat on WhatsApp](https://wa.me/966560358978)  
 
-📧 Email: [drshdrsh26@yahoo.com](mailto:drshdrsh26@yahoo.com)  
-🔗 LinkedIn: [linkedin.com/in/mostafa-mahmoud-abdelrahman](https://eg.linkedin.com/in/mostafa-mahmoud-abdelrahman)
-
+📧 **Email:** [drshdrsh26@yahoo.com](mailto:drshdrsh26@yahoo.com)  
+🔗 **LinkedIn:** [Mostafa Mahmoud Abdelrahman](https://eg.linkedin.com/in/mostafa-mahmoud-abdelrahman)
