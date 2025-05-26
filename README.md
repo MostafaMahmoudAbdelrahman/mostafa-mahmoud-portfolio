@@ -3,7 +3,12 @@
 <table>
   <tr>
     <td width="100" valign="top">
-      <img src="resources/profile-pic.PNG" alt="Mostafa Mahmoud" width="80" height="80" style="border-radius:50%; object-fit: cover;" />
+      <img 
+        src="resources/profile-pic.PNG" 
+        alt="Mostafa Mahmoud" 
+        width="80" 
+        style="border-radius: 50%; object-fit: cover; height: auto; display: block;" 
+      />
     </td>
     <td valign="top" style="padding-left: 15px;">
       <p>
