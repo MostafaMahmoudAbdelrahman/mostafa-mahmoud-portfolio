@@ -183,6 +183,20 @@ Specialized in Computer Science
 
 🔗 [Explore on Meta Quest Store](https://www.meta.com/experiences/rmg-lab/9123235517790926/?srsltid=AfmBOoq2qD2iI94YD8JKqDs6bqgwJnRl0fSxRmifX-B9zNJc1zV52Xin)
 
+
+### Saudi Civil Defense Ministry VR Training Simulation  
+*(Add Date or Period)*
+
+🔹 A VR training simulation developed for the Saudi Civil Defense Ministry using HTC Vive. This project demonstrates practical training for workers on motor maintenance, forklift (Clark) operation, and fire extinguishing techniques.
+
+💠 **Project Highlights:**  
+- ✅ Realistic VR simulations focused on hands-on worker training  
+- ✅ Simulated motor repair, forklift driving, and fire extinguisher use  
+- ✅ Developed with Unity targeting HTC Vive hardware  
+- ✅ Delivered as part of work at Bright Vision Tech  
+
+🔗 [Watch Demo Video on YouTube](https://youtu.be/I1Lyocgj0M4)
+
 ---
 
 ## Contact
