@@ -179,19 +179,20 @@ Specialized in Computer Science
 ## Projects
 
 ### Duroob Al-Majd  
-*October 2024*
+*February 2025*
 
 🔹 *Duroob Al-Majd* is an epic VR experience inspired by Saudi culture, where players race through stunning environments, from breathtaking deserts and traditional souks to modern cityscapes. While running, you'll encounter interactive questions that test your knowledge of Saudi history and culture, turning every session into an exciting and educational adventure!
 
 💠 **Game Features:**  
-- ✅ Authentic Saudi environments with traditional clothing & heritage  
-- ✅ Endless running with increasing speed & evolving challenges  
-- ✅ Cultural trivia and interactive surveys during gameplay  
-- ✅ Immersive VR experience optimized for Meta Quest devices  
-- ✅ Compete with friends on global leaderboards  
+- Authentic Saudi environments with traditional clothing & heritage  
+- Endless running with increasing speed & evolving challenges  
+- Cultural trivia and interactive surveys during gameplay  
+- Immersive VR experience optimized for Meta Quest devices  
+- Compete with friends on global leaderboards  
 
 🔗 [Play on Meta Quest Store](https://www.meta.com/experiences/9097137060321303/)
 
+---
 
 ### RMG Lab  
 *September 2024*
@@ -199,55 +200,62 @@ Specialized in Computer Science
 🔹 *RMG Lab* is an innovative simulation app designed for RMG's Innovation Lab, leveraging immersive VR technology to revolutionize simulation, analysis, and problem-solving.
 
 💠 **Key Features:**  
-- ✅ Realistic, interactive simulations tailored to business needs  
-- ✅ Innovative solutions testing in a controlled virtual environment  
-- ✅ Collaboration tools for seamless teamwork  
-- ✅ Customizable scenarios optimized for unique requirements  
+- Realistic, interactive simulations tailored to business needs  
+- Innovative solutions testing in a controlled virtual environment  
+- Collaboration tools for seamless teamwork  
+- Customizable scenarios optimized for unique requirements  
 
 🔗 [Explore on Meta Quest Store](https://www.meta.com/experiences/rmg-lab/9123235517790926/?srsltid=AfmBOoq2qD2iI94YD8JKqDs6bqgwJnRl0fSxRmifX-B9zNJc1zV52Xin)
 
-### Labs For Home  
-*February 2024*  
+---
 
-🔹 *Labs For Home* is an exclusive simulation platform developed for select schools in the UAE. It enables students to conduct physics, chemistry, and biology experiments virtually at home. Designed for PC, Chromebook, tablets, and Mac, this solution enhances remote learning through immersive and interactive virtual labs.  
+### Labs For Home  
+*February 2024*
+
+🔹 *Labs For Home* is an exclusive simulation platform developed for select schools in the UAE. It enables students to conduct physics, chemistry, and biology experiments virtually at home. Designed for PC, Chromebook, tablets, and Mac, this solution enhances remote learning through immersive and interactive virtual labs.
 
 💠 **Project Highlights:**  
-- ✅ Interactive virtual experiments for physics, chemistry, and biology  
-- ✅ Cross-platform compatibility: PC, Chromebook, tablets, Mac  
-- ✅ Enhances remote learning with realistic lab simulations  
-- ✅ Developed exclusively for selected UAE schools  
+- Interactive virtual experiments for physics, chemistry, and biology  
+- Cross-platform compatibility: PC, Chromebook, tablets, Mac  
+- Enhances remote learning with realistic lab simulations  
+- Developed exclusively for selected UAE schools  
 
 🔗 [Watch Trailer](https://youtu.be/EnRGWVXgOus)
 
+---
+
 ### GVS (MeetinVR)  
-*(March 2023)* 
+*March 2023*
 
 🔹 *GVS* (MeetinVR) is an innovative virtual meeting platform developed for Global Business Strategies (GBS). It transforms traditional video calls into immersive 3D metaverse experiences, enabling organizations to host meetings, events, workshops, and training sessions in a virtual environment. Unlike Zoom or Teams, GVS offers realistic 3D spaces where users can share screens, interact naturally, and organize virtual events.
 
 💠 **Project Highlights:**  
-- ✅ Multiplayer functionality powered by Photon  
-- ✅ Voice, video calls, and screen sharing via Agora SDK  
-- ✅ Immersive 3D meeting environments simulating real office spaces  
-- ✅ Platform designed for corporate clients with custom exclusive solutions  
-- ✅ Developed complex system architecture to support smooth, scalable interactions  
+- Multiplayer functionality powered by Photon  
+- Voice, video calls, and screen sharing via Agora SDK  
+- Immersive 3D meeting environments simulating real office spaces  
+- Platform designed for corporate clients with custom exclusive solutions  
+- Developed complex system architecture to support smooth, scalable interactions  
 
 🔗 [Watch Project Video](https://youtu.be/D_eH1XC2uh8)
 
+---
+
 ### CowBoy  
-*(February 2023)* 
+*February 2023*
 
 🔹 *CowBoy* is a first-person shooter mobile game set in a wild environment. The game features one-on-one matches where players can shoot using gyroscope controls, set traps, and compete with friends, online players, or bots. It includes a leaderboard and battle pass system for ongoing competition.
 
 💠 **Game Features:**  
-- ✅ First-person shooter gameplay with gyroscope aiming  
-- ✅ One-on-one matches with real-time multiplayer support  
-- ✅ Create and deploy traps during gameplay  
-- ✅ Play against friends, online opponents, or bots  
-- ✅ Multiplayer implemented with Firebase Realtime Database  
-- ✅ Leaderboard and battle pass system for player progression  
+- First-person shooter gameplay with gyroscope aiming  
+- One-on-one matches with real-time multiplayer support  
+- Create and deploy traps during gameplay  
+- Play against friends, online opponents, or bots  
+- Multiplayer implemented with Firebase Realtime Database  
+- Leaderboard and battle pass system for player progression  
 
 🔗 [Gameplay Video](https://youtu.be/buLiEuP_0yo)
 
+---
 
 ### My Mall  
 *May 2022*
@@ -255,31 +263,31 @@ Specialized in Computer Science
 🔹 *My Mall* is the first real hybrid platform in the Middle East combining virtual reality and retail, offering a unique social shopping experience. This 3D virtual electronic mall for mobile (Android & iOS) features over 300 commercial stores, exhibitions, and booths, allowing users to shop, enjoy entertainment, cinema, and social networking—all within a fully immersive virtual environment.
 
 💠 **Project Highlights:**  
-- ✅ First 3D virtual mall in the Middle East designed for mobile devices  
-- ✅ Combines e-commerce with immersive VR social shopping  
-- ✅ Over 300 stores and exhibition booths representing various sectors including food, fashion, electronics, and tourism  
-- ✅ Interactive virtual reality shopping experience with 3D product views  
-- ✅ Enables brands to create impactful, engaging environments  
-- ✅ Available on Android and iOS platforms  
+- First 3D virtual mall in the Middle East designed for mobile devices  
+- Combines e-commerce with immersive VR social shopping  
+- Over 300 stores and exhibition booths representing various sectors including food, fashion, electronics, and tourism  
+- Interactive virtual reality shopping experience with 3D product views  
+- Enables brands to create impactful, engaging environments  
+- Available on Android and iOS platforms  
 
 🔗 [My Mall on APKPure (Android)](https://apkpure.com/my-mall/com.bluezone.mymall/amp)  
 🔗 [My Mall on Apple Store (iOS)](https://apps.apple.com/hr/app/mymall-%D9%85%D8%A7%D9%8A-%D9%85%D9%88%D9%84/id1566384852?l=hr)
 
+---
 
 ### Saudi Civil Defense Ministry VR Training Simulation  
-*(March 2019)*
+*March 2019*
 
 🔹 A VR training simulation developed for the Saudi Civil Defense Ministry using HTC Vive. This project demonstrates practical training for workers on motor maintenance, forklift (Clark) operation, and fire extinguishing techniques.
 
 💠 **Project Highlights:**  
-- ✅ Realistic VR simulations focused on hands-on worker training  
-- ✅ Simulated motor repair, forklift driving, and fire extinguisher use  
-- ✅ Developed with Unity targeting HTC Vive hardware  
-- ✅ Delivered as part of work at Bright Vision Tech  
+- Realistic VR simulations focused on hands-on worker training  
+- Simulated motor repair, forklift driving, and fire extinguisher use  
+- Developed with Unity targeting HTC Vive hardware  
+- Delivered as part of work at Bright Vision Tech  
 
 🔗 [Watch Demo Video on YouTube](https://youtu.be/I1Lyocgj0M4)
 
----
 
 ## Contact
 
