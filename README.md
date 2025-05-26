@@ -31,66 +31,52 @@ Experienced Senior Unity Developer with 7+ years in VR, multiplayer games, and s
 ## Work Experience
 
 **Senior Unity Developer**  
-<p>
-  <a href="https://www.rmg-sa.com/" target="_blank">
-    <img src="resources/rmg-logo.png" alt="RMG Logo" width="40" style="vertical-align:middle; margin-right:10px;" />
-  </a>
-  *RMG, Riyadh, Saudi Arabia*  
-</p>
+<a href="https://www.rmg-sa.com/" target="_blank">
+  <img src="resources/rmg-logo.png" alt="RMG Logo" width="40" />
+</a>  
+*RMG, Riyadh, Saudi Arabia*  
 _Aug 2024 – Present_  
 - Lead development of mobile multiplayer games and interactive experiences.
 
 **Senior Unity Developer**  
-<p>
-  <a href="https://arconme.com/" target="_blank">
-    <img src="resources/arcon-logo.png" alt="ARCON Logo" width="40" style="vertical-align:middle; margin-right:10px;" />
-  </a>
-  *ARCON (Remote)*  
-</p>
+<a href="https://arconme.com/" target="_blank">
+  <img src="resources/arcon-logo.png" alt="ARCON Logo" width="40" />
+</a>  
+*ARCON (Remote)*  
 _Apr 2022 – Jul 2024_  
 - Developed educational simulation projects in Unity with a focus on clean, efficient C# code.
 
 **Unity Developer (Part-time)**  
-<p>
-  <a href="https://dev.global-business-strategies.com/" target="_blank">
-    <img src="resources/bluezone-logo.png" alt="BlueZone Web Logo" width="40" style="vertical-align:middle; margin-right:10px;" />
-  </a>
-  *BlueZone Web*  
-</p>
+<a href="https://dev.global-business-strategies.com/" target="_blank">
+  <img src="resources/bluezone-logo.png" alt="BlueZone Web Logo" width="40" />
+</a>  
+*BlueZone Web*  
 _Oct 2021 – Feb 2024_  
 - Created 3D multiplayer games using Unity, Photon-ML, and Firebase backend.
 
 **Officer & C# Developer (Forced Conscription)**  
-<p>
-  <a href="https://www.mod.gov.eg/ModWebSite/Default.aspx" target="_blank">
-    <img src="resources/egyptian-armed-forces-logo.png" alt="Egyptian Armed Forces Logo" width="40" style="vertical-align:middle; margin-right:10px;" />
-  </a>
-  *Egyptian Armed Forces*  
-</p>
+<a href="https://www.mod.gov.eg/ModWebSite/Default.aspx" target="_blank">
+  <img src="resources/egyptian-armed-forces-logo.png" alt="Egyptian Armed Forces Logo" width="40" />
+</a>  
+*Egyptian Armed Forces*  
 _May 2019 – Sep 2021_  
 - Developed internal desktop C# applications including database and report systems.
 
 **Unity Developer (Full-time)**  
-<p>
-  <a href="https://b-vision.tech/" target="_blank">
-    <img src="resources/brightvisiontech-logo.png" alt="Bright Vision Tech Logo" width="40" style="vertical-align:middle; margin-right:10px;" />
-  </a>
-  *Bright Vision Tech*  
-</p>
+<a href="https://b-vision.tech/" target="_blank">
+  <img src="resources/brightvisiontech-logo.png" alt="Bright Vision Tech Logo" width="40" />
+</a>  
+*Bright Vision Tech*  
 _Jul 2018 – Apr 2021_  
 - Built VR training simulations for firefighting, firearms, and driving.
 
 **Project Reviewer / Classroom Mentor**  
-<p>
-  <a href="https://www.udacity.com/" target="_blank">
-    <img src="resources/udacity-logo.svg" alt="Udacity Logo" width="40" style="vertical-align:middle; margin-right:10px;" />
-  </a>
-  *Udacity*  
-</p>
+<a href="https://www.udacity.com/" target="_blank">
+  <img src="resources/udacity-logo.svg" alt="Udacity Logo" width="40" />
+</a>  
+*Udacity*  
 _Nov 2017 – Jun 2018_  
 - Mentored and reviewed student projects, enhancing communication and mentoring skills.
-
----
 
 ## Education
 
