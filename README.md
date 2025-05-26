@@ -123,10 +123,10 @@ _Nov 2017 – Jun 2018_
 
 ## Education
 
-**Bachelor’s Degree in Computer Science**  
+**Bachelor’s Degree in computer and artificial intelligence**  
 _Benha University, Egypt_  
 _Aug 2014 – Aug 2018_  
-Specialized in Mobile Application Development
+Specialized in Computer Science
 
 ---
 
@@ -168,6 +168,20 @@ Specialized in Mobile Application Development
 - ✅ Compete with friends on global leaderboards  
 
 🔗 [Play on Meta Quest Store](https://www.meta.com/experiences/9097137060321303/)
+
+
+### RMG Lab  
+*September 2024*
+
+🔹 *RMG Lab* is an innovative simulation app designed for RMG's Innovation Lab, leveraging immersive VR technology to revolutionize simulation, analysis, and problem-solving.
+
+💠 **Key Features:**  
+- ✅ Realistic, interactive simulations tailored to business needs  
+- ✅ Innovative solutions testing in a controlled virtual environment  
+- ✅ Collaboration tools for seamless teamwork  
+- ✅ Customizable scenarios optimized for unique requirements  
+
+🔗 [Explore on Meta Quest Store](https://www.meta.com/experiences/rmg-lab/9123235517790926/?srsltid=AfmBOoq2qD2iI94YD8JKqDs6bqgwJnRl0fSxRmifX-B9zNJc1zV52Xin)
 
 ---
 
