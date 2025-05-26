@@ -13,13 +13,12 @@
     <td valign="top" style="padding-left: 15px;">
       <p>
         📧 drshdrsh26@yahoo.com<br>
-        Riyadh, Saudi Arabia<br>
+        cairo, Egypt<br>
         +201017800204
       </p>
       <p>
         <a href="https://eg.linkedin.com/in/mostafa-mahmoud-abdelrahman">LinkedIn</a> | 
         <a href="PORTFOLIO.md">Portfolio Website</a> | 
-        <a href="your-youtube-channel">YouTube</a>
       </p>
     </td>
   </tr>
@@ -144,25 +143,21 @@ Specialized in Mobile Application Development
 
 ---
 
-## Projects & Media
+## Projects
 
-### Multiplayer VR Training Simulator  
-- **Role:** Lead Developer  
-- **Technologies:** Unity, Photon Fusion, URP, Oculus Quest  
-- **Demo Video:** [YouTube Link](your-demo-video-url)  
-- **Source Code:** [GitHub Repo](your-project-repo-url)  
+### Duroob Al-Majd  
+*October 2024*
 
-### Mobile Multiplayer Game  
-- **Role:** Full-stack Developer  
-- **Technologies:** Unity, Photon PUN, Firebase  
-- **Demo Video:** [YouTube Link](your-demo-video-url)  
-- **APK Download:** [Link](your-apk-download-url)  
+🔹 *Duroob Al-Majd* is an epic VR experience inspired by Saudi culture, where players race through stunning environments, from breathtaking deserts and traditional souks to modern cityscapes. While running, you'll encounter interactive questions that test your knowledge of Saudi history and culture, turning every session into an exciting and educational adventure!
 
-### Custom Editor Tools (Odin Inspector)  
-- **Role:** Tooling Developer  
-- **Technologies:** Unity Editor Scripting, Odin Inspector  
-- **Demo Video:** [YouTube Link](your-demo-video-url)  
-- **Source Code:** [GitHub Repo](your-tooling-repo-url)  
+💠 **Game Features:**  
+- ✅ Authentic Saudi environments with traditional clothing & heritage  
+- ✅ Endless running with increasing speed & evolving challenges  
+- ✅ Cultural trivia and interactive surveys during gameplay  
+- ✅ Immersive VR experience optimized for Meta Quest devices  
+- ✅ Compete with friends on global leaderboards  
+
+🔗 [Play on Meta Quest Store](https://www.meta.com/experiences/9097137060321303/)
 
 ---
 
