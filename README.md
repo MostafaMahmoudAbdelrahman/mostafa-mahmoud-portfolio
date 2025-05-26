@@ -10,37 +10,47 @@
         style="border-radius: 50%; object-fit: cover; height: auto; display: block;" 
       />
     </td>
-    <td valign="top" style="padding-left: 15px;">
-      <p>
-        📧 drshdrsh26@yahoo.com<br>
-        cairo, Egypt<br>
-        +201017800204
-      </p>
-      <p>
-        <a href="https://eg.linkedin.com/in/mostafa-mahmoud-abdelrahman">LinkedIn</a> | 
-      </p>
+    <td valign="top" style="padding-left: 20px; font-size: 14px; line-height: 1.5;">
+      <p>📧 <a href="mailto:drshdrsh26@yahoo.com">drshdrsh26@yahoo.com</a></p>
+      <p>📍 Cairo, Egypt</p>
+      <p>📞 +20 101 780 0204</p>
+      <p>🔗 <a href="https://eg.linkedin.com/in/mostafa-mahmoud-abdelrahman" target="_blank">LinkedIn Profile</a></p>
     </td>
   </tr>
 </table>
 
 ---
 
+
 ## About Me
 
-Experienced Senior Unity Developer with 7+ years in VR, multiplayer games, and simulation. Skilled in Unity (C#), Photon, Firebase, URP, Addressables, and editor tooling (Odin Inspector). Passionate about creating immersive, efficient, and scalable applications for mobile, VR, and web platforms. Strong communicator and agile team player.
+Experienced Senior Unity Developer with over 7 years of expertise in VR, multiplayer games, and simulation development. Proficient in Unity and C#, with strong skills in multiplayer networking (Photon), cloud services (Firebase), and advanced Unity systems such as Universal Render Pipeline (URP) and Addressable Assets. Experienced in creating custom editor tooling using Odin Inspector to streamline development workflows.
 
+Passionate about building immersive, efficient, and scalable applications across mobile, VR, and web platforms. A strong communicator and collaborative agile team player dedicated to delivering innovative solutions and high-quality user experiences.
 ---
 
 ## Skills
 
+### Technical Skills
 - Unity & C# (7+ years)
 - Multiplayer Networking: Photon PUN & Fusion
 - VR Development: Meta Quest, HTC Vive, PC VR
-- Firebase: Auth, Realtime Database, Cloud Save
-- Unity Systems: Addressables, URP
+- Firebase: Authentication, Realtime Database, Cloud Save
+- Unity Systems: Addressable Assets, Universal Render Pipeline (URP)
 - Editor Tooling & Custom Inspectors (Odin Inspector)
-- CI/CD pipelines for Unity projects (GitHub Actions)
-- Agile Software Development
+- Cloud Services: Firebase, Unity Cloud Save
+- CI/CD Pipelines for Unity Projects (GitHub Actions)
+- Mobile Development: iOS, Android, WebGL
+- Multiplayer Game Development & Chat Systems
+- Desktop Application Development: C# .NET, Database creation, Report generation
+- Agile Software Development Methodologies
+
+### Soft Skills
+- Adaptability
+- Communication
+- Problem-solving
+- Leadership
+- Teamwork
 
 ---
 
@@ -76,15 +86,38 @@ _Aug 2024 – Present_
 _Apr 2022 – Jul 2024_  
 - Developed educational simulation projects in Unity with a focus on clean, efficient C# code.
 
-**Unity Developer (Part-time)**  
-<a href="https://dev.global-business-strategies.com/" target="_blank">
+**Senior Unity Developer (Freelance)**  
+<a href="https://global-business-strategies.com/" target="_blank">
+  <span>
+    <strong>Global Business Strategies (GBS)</strong>
+    <img src="resources/gbs-logo.png" alt="GBS Logo" width="20" style="margin-left:10px; vertical-align:middle;" />
+  </span>
+</a>  
+_Feb 2022 – Feb 2023_  
+- Collaborated remotely on simulation projects for meetings and events, delivering Unity-based solutions with strong C# expertise.
+
+**Unity Developer**  
+<a href="https://bluezonekw.com/" target="_blank">
   <span>
     <strong>BlueZone Web</strong>
     <img src="resources/bluezone-logo.png" alt="BlueZone Web Logo" width="20" style="margin-left:10px; vertical-align:middle;" />
   </span>
 </a>  
-_Oct 2021 – Feb 2024_  
-- Created 3D multiplayer games using Unity, Photon-ML, and Firebase backend.
+_Full-time: Oct 2021 – Apr 2022_  
+_Part-time: Apr 2022 – Feb 2024_  
+- Developed 3D applications and multiplayer games using Unity, C#, Photon-ML, and Firebase backend.
+
+
+**Unity Developer (Full-time / Project-based)**  
+<a href="https://b-vision.tech/" target="_blank">
+  <span>
+    <strong>Bright Vision Tech</strong>
+    <img src="resources/brightvisiontech-logo.png" alt="Bright Vision Tech Logo" width="20" style="margin-left:10px; vertical-align:middle;" />
+  </span>
+</a>  
+_Jul 2018 – Apr 2019 (Full-time)_  
+_May 2019 – Sep 2021 (Project-based during Armed Forces service)_  
+- Built VR training simulations for firefighting, firearms, and driving.
 
 **Officer & C# Developer (Forced Conscription)**  
 <a href="https://www.mod.gov.eg/ModWebSite/Default.aspx" target="_blank">
@@ -96,15 +129,6 @@ _Oct 2021 – Feb 2024_
 _May 2019 – Sep 2021_  
 - Developed internal desktop C# applications including database and report systems.
 
-**Unity Developer (Full-time)**  
-<a href="https://b-vision.tech/" target="_blank">
-  <span>
-    <strong>Bright Vision Tech</strong>
-    <img src="resources/brightvisiontech-logo.png" alt="Bright Vision Tech Logo" width="20" style="margin-left:10px; vertical-align:middle;" />
-  </span>
-</a>  
-_Jul 2018 – Apr 2021_  
-- Built VR training simulations for firefighting, firearms, and driving.
 
 **Project Reviewer / Classroom Mentor**  
 <a href="https://www.udacity.com/" target="_blank">
@@ -182,9 +206,35 @@ Specialized in Computer Science
 
 🔗 [Explore on Meta Quest Store](https://www.meta.com/experiences/rmg-lab/9123235517790926/?srsltid=AfmBOoq2qD2iI94YD8JKqDs6bqgwJnRl0fSxRmifX-B9zNJc1zV52Xin)
 
+### Labs For Home  
+*February 2024*  
+
+🔹 *Labs For Home* is an exclusive simulation platform developed for select schools in the UAE. It enables students to conduct physics, chemistry, and biology experiments virtually at home. Designed for PC, Chromebook, tablets, and Mac, this solution enhances remote learning through immersive and interactive virtual labs.  
+
+💠 **Project Highlights:**  
+- ✅ Interactive virtual experiments for physics, chemistry, and biology  
+- ✅ Cross-platform compatibility: PC, Chromebook, tablets, Mac  
+- ✅ Enhances remote learning with realistic lab simulations  
+- ✅ Developed exclusively for selected UAE schools  
+
+🔗 [Watch Trailer](https://youtu.be/EnRGWVXgOus)
+
+### GVS (MeetinVR)  
+*(March 2023)* 
+
+🔹 *GVS* (MeetinVR) is an innovative virtual meeting platform developed for Global Business Strategies (GBS). It transforms traditional video calls into immersive 3D metaverse experiences, enabling organizations to host meetings, events, workshops, and training sessions in a virtual environment. Unlike Zoom or Teams, GVS offers realistic 3D spaces where users can share screens, interact naturally, and organize virtual events.
+
+💠 **Project Highlights:**  
+- ✅ Multiplayer functionality powered by Photon  
+- ✅ Voice, video calls, and screen sharing via Agora SDK  
+- ✅ Immersive 3D meeting environments simulating real office spaces  
+- ✅ Platform designed for corporate clients with custom exclusive solutions  
+- ✅ Developed complex system architecture to support smooth, scalable interactions  
+
+🔗 [Watch Project Video](https://youtu.be/D_eH1XC2uh8)
 
 ### Saudi Civil Defense Ministry VR Training Simulation  
-*(Add Date or Period)*
+*(March 2019)*
 
 🔹 A VR training simulation developed for the Saudi Civil Defense Ministry using HTC Vive. This project demonstrates practical training for workers on motor maintenance, forklift (Clark) operation, and fire extinguishing techniques.
 
@@ -200,8 +250,9 @@ Specialized in Computer Science
 
 ## Contact
 
-📞 +201017800204  
-[📱 WhatsApp](https://wa.me/966560358978)
+📞 Phone: +201017800204  
+📱 WhatsApp: [wa.me/966560358978](https://wa.me/966560358978)  
 
-📧 drshdrsh26@yahoo.com  
-[LinkedIn](https://eg.linkedin.com/in/mostafa-mahmoud-abdelrahman)
+📧 Email: [drshdrsh26@yahoo.com](mailto:drshdrsh26@yahoo.com)  
+🔗 LinkedIn: [linkedin.com/in/mostafa-mahmoud-abdelrahman](https://eg.linkedin.com/in/mostafa-mahmoud-abdelrahman)
+
