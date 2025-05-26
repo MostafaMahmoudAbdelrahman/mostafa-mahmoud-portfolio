@@ -233,6 +233,39 @@ Specialized in Computer Science
 
 🔗 [Watch Project Video](https://youtu.be/D_eH1XC2uh8)
 
+### CowBoy  
+*(February 2023)* 
+
+🔹 *CowBoy* is a first-person shooter mobile game set in a wild environment. The game features one-on-one matches where players can shoot using gyroscope controls, set traps, and compete with friends, online players, or bots. It includes a leaderboard and battle pass system for ongoing competition.
+
+💠 **Game Features:**  
+- ✅ First-person shooter gameplay with gyroscope aiming  
+- ✅ One-on-one matches with real-time multiplayer support  
+- ✅ Create and deploy traps during gameplay  
+- ✅ Play against friends, online opponents, or bots  
+- ✅ Multiplayer implemented with Firebase Realtime Database  
+- ✅ Leaderboard and battle pass system for player progression  
+
+🔗 [Gameplay Video](https://youtu.be/buLiEuP_0yo)
+
+
+### My Mall  
+*May 2022*
+
+🔹 *My Mall* is the first real hybrid platform in the Middle East combining virtual reality and retail, offering a unique social shopping experience. This 3D virtual electronic mall for mobile (Android & iOS) features over 300 commercial stores, exhibitions, and booths, allowing users to shop, enjoy entertainment, cinema, and social networking—all within a fully immersive virtual environment.
+
+💠 **Project Highlights:**  
+- ✅ First 3D virtual mall in the Middle East designed for mobile devices  
+- ✅ Combines e-commerce with immersive VR social shopping  
+- ✅ Over 300 stores and exhibition booths representing various sectors including food, fashion, electronics, and tourism  
+- ✅ Interactive virtual reality shopping experience with 3D product views  
+- ✅ Enables brands to create impactful, engaging environments  
+- ✅ Available on Android and iOS platforms  
+
+🔗 [My Mall on APKPure (Android)](https://apkpure.com/my-mall/com.bluezone.mymall/amp)  
+🔗 [My Mall on Apple Store (iOS)](https://apps.apple.com/hr/app/mymall-%D9%85%D8%A7%D9%8A-%D9%85%D9%88%D9%84/id1566384852?l=hr)
+
+
 ### Saudi Civil Defense Ministry VR Training Simulation  
 *(March 2019)*
 
