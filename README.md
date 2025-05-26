@@ -70,7 +70,7 @@ _Aug 2024 – Present_
 **Senior Unity Developer**  
 <a href="https://arconme.com/" target="_blank">
   <span>
-    <strong>ARCON (Remote)</strong>
+    <strong>ARCON</strong>
     <img src="resources/arcon-logo.png" alt="ARCON Logo" width="20" style="margin-left:10px; vertical-align:middle;" />
   </span>
 </a>  
