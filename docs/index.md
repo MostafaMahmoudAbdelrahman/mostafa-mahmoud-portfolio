@@ -1,4 +1,4 @@
-# Mostafa Mahmoud — Senior Unity Developer
+# 🎮 Mostafa Mahmoud — Senior Game Developer (Unity Specialist)
 
 <table>
   <tr>
@@ -18,6 +18,9 @@
     </td>
   </tr>
 </table>
+
+---
+> 🎯 Passionate about building immersive game worlds, competitive multiplayer systems, and cutting-edge VR experiences using Unity & C#.
 
 ---
 
