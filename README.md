@@ -83,7 +83,7 @@ _Jul 2018 – Apr 2021_
 **Project Reviewer / Classroom Mentor**  
 <p>
   <a href="https://www.udacity.com/" target="_blank">
-    <img src="resources/udacity-logo.png" alt="Udacity Logo" width="40" style="vertical-align:middle; margin-right:10px;" />
+    <img src="resources/udacity-logo.svg" alt="Udacity Logo" width="40" style="vertical-align:middle; margin-right:10px;" />
   </a>
   *Udacity*  
 </p>
