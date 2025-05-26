@@ -1,11 +1,24 @@
 # Mostafa Mahmoud — Senior Unity Developer
 
-<p align="center">
-  <img src="resources/profile-pic.PNG" alt="Mostafa Mahmoud" width="300" />
-</p>
-
-📧 drshdrsh26@yahoo.com | Riyadh, Saudi Arabia | +201017800204  
-[LinkedIn](https://eg.linkedin.com/in/mostafa-mahmoud-abdelrahman) | [Portfolio Website](PORTFOLIO.md) | [YouTube](your-youtube-channel)  
+<table>
+  <tr>
+    <td width="100" valign="top">
+      <img src="resources/profile-pic.PNG" alt="Mostafa Mahmoud" width="80" height="80" style="border-radius:50%; object-fit: cover;" />
+    </td>
+    <td valign="top" style="padding-left: 15px;">
+      <p>
+        📧 drshdrsh26@yahoo.com<br>
+        Riyadh, Saudi Arabia<br>
+        +201017800204
+      </p>
+      <p>
+        <a href="https://eg.linkedin.com/in/mostafa-mahmoud-abdelrahman">LinkedIn</a> | 
+        <a href="PORTFOLIO.md">Portfolio Website</a> | 
+        <a href="your-youtube-channel">YouTube</a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
