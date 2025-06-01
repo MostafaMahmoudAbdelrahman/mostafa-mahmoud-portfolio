@@ -63,7 +63,7 @@ Passionate about building immersive, efficient, and scalable applications across
 <a href="https://www.rmg-sa.com/" target="_blank">
   <span>
     <strong>RMG, Riyadh, Saudi Arabia</strong>
-    <img src="../resources/rmg-logo.png" alt="RMG Logo" width="20" style="margin-left:10px; vertical-align:middle;" />
+    <img src="https://raw.githubusercontent.com/MostafaMahmoudAbdelrahman/mostafa-mahmoud-portfolio/main/resources/rmg-logo.png" alt="RMG Logo" width="20" style="margin-left:10px; vertical-align:middle;" />
   </span>
 </a>  
 _Aug 2024 – Present_  
@@ -73,7 +73,7 @@ _Aug 2024 – Present_
 <a href="https://www.cyberx.world/" target="_blank" rel="noopener noreferrer">
   <span>
     <strong>CyberX</strong>
-    <img src="../resources/cyberx-logo.svg" alt="CyberX Logo" width="20" style="margin-left:10px; vertical-align:middle;" />
+    <img src="https://raw.githubusercontent.com/MostafaMahmoudAbdelrahman/mostafa-mahmoud-portfolio/main/resources/cyberx-logo.svg" alt="CyberX Logo" width="20" style="margin-left:10px; vertical-align:middle;" />
   </span>
 </a>  
 _Aug 2024 – Present_  
@@ -83,7 +83,7 @@ _Aug 2024 – Present_
 <a href="https://arconme.com/" target="_blank">
   <span>
     <strong>ARCON</strong>
-    <img src="../resources/arcon-logo.png" alt="ARCON Logo" width="20" style="margin-left:10px; vertical-align:middle;" />
+    <img src="https://raw.githubusercontent.com/MostafaMahmoudAbdelrahman/mostafa-mahmoud-portfolio/main/resources/arcon-logo.png" alt="ARCON Logo" width="20" style="margin-left:10px; vertical-align:middle;" />
   </span>
 </a>  
 _Apr 2022 – Jul 2024_  
@@ -93,7 +93,7 @@ _Apr 2022 – Jul 2024_
 <a href="https://global-business-strategies.com/" target="_blank">
   <span>
     <strong>Global Business Strategies (GBS)</strong>
-<!--     <img src="../resources/gbs-logo.png" alt="GBS Logo" width="20" style="margin-left:10px; vertical-align:middle;" />
+<!--     <img src="https://raw.githubusercontent.com/MostafaMahmoudAbdelrahman/mostafa-mahmoud-portfolio/main/resources/gbs-logo.png" alt="GBS Logo" width="20" style="margin-left:10px; vertical-align:middle;" />
  -->  </span>
 </a>  
 _Feb 2022 – Feb 2023_  
@@ -103,7 +103,7 @@ _Feb 2022 – Feb 2023_
 <a href="https://bluezonekw.com/" target="_blank">
   <span>
     <strong>BlueZone Web</strong>
-    <img src="../resources/bluezone-logo.png" alt="BlueZone Web Logo" width="20" style="margin-left:10px; vertical-align:middle;" />
+    <img src="https://raw.githubusercontent.com/MostafaMahmoudAbdelrahman/mostafa-mahmoud-portfolio/main/resources/bluezone-logo.png" alt="BlueZone Web Logo" width="20" style="margin-left:10px; vertical-align:middle;" />
   </span>
 </a>  
 _Full-time: Oct 2021 – Apr 2022_  
@@ -115,7 +115,7 @@ _Part-time: Apr 2022 – Feb 2024_
 <a href="https://b-vision.tech/" target="_blank">
   <span>
     <strong>Bright Vision Tech</strong>
-    <img src="../resources/brightvisiontech-logo.png" alt="Bright Vision Tech Logo" width="20" style="margin-left:10px; vertical-align:middle;" />
+    <img src="https://raw.githubusercontent.com/MostafaMahmoudAbdelrahman/mostafa-mahmoud-portfolio/main/resources/brightvisiontech-logo.png" alt="Bright Vision Tech Logo" width="20" style="margin-left:10px; vertical-align:middle;" />
   </span>
 </a>  
 _Jul 2018 – Apr 2019 (Full-time)_  
@@ -126,7 +126,7 @@ _May 2019 – Sep 2021 (Project-based during Armed Forces service)_
 <a href="https://www.mod.gov.eg/ModWebSite/Default.aspx" target="_blank">
   <span>
     <strong>Egyptian Armed Forces</strong>
-    <img src="../resources/egyptian-armed-forces-logo.png" alt="Egyptian Armed Forces Logo" width="20" style="margin-left:10px; vertical-align:middle;" />
+    <img src="https://raw.githubusercontent.com/MostafaMahmoudAbdelrahman/mostafa-mahmoud-portfolio/main/resources/egyptian-armed-forces-logo.png" alt="Egyptian Armed Forces Logo" width="20" style="margin-left:10px; vertical-align:middle;" />
   </span>
 </a>  
 _May 2019 – Sep 2021_  
@@ -137,7 +137,7 @@ _May 2019 – Sep 2021_
 <a href="https://www.udacity.com/" target="_blank">
   <span>
     <strong>Udacity</strong>
-    <img src="../resources/udacity-logo.svg" alt="Udacity Logo" width="20" style="margin-left:10px; vertical-align:middle;" />
+    <img src="https://raw.githubusercontent.com/MostafaMahmoudAbdelrahman/mostafa-mahmoud-portfolio/main/resources/udacity-logo.svg" alt="Udacity Logo" width="20" style="margin-left:10px; vertical-align:middle;" />
   </span>
 </a>  
 _Nov 2017 – Jun 2018_  
@@ -161,8 +161,8 @@ Specialized in Computer Science
 ### Certificates
 
 <p align="center">
-  <img src="../resources/android-basics-nanodegree.svg" alt="Android Basics Nanodegree" width="250" style="margin: 10px;" />
-  <img src="../resources/virtual-reality-nanodegree.svg" alt="Virtual Reality Nanodegree" width="250" style="margin: 10px;" />
+  <img src="https://raw.githubusercontent.com/MostafaMahmoudAbdelrahman/mostafa-mahmoud-portfolio/main/resources/android-basics-nanodegree.svg" alt="Android Basics Nanodegree" width="250" style="margin: 10px;" />
+  <img src="https://raw.githubusercontent.com/MostafaMahmoudAbdelrahman/mostafa-mahmoud-portfolio/main/resources/virtual-reality-nanodegree.svg" alt="Virtual Reality Nanodegree" width="250" style="margin: 10px;" />
 </p>
 
 ### Udacity Nanodegrees
