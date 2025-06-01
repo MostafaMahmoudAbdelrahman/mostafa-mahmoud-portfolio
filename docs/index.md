@@ -4,7 +4,7 @@
   <tr>
     <td width="100" valign="top">
       <img 
-        src="../resources/profile-pic.PNG" 
+        src="https://github.com/MostafaMahmoudAbdelrahman/mostafa-mahmoud-portfolio/tree/main/resources/profile-pic.PNG" 
         alt="Mostafa Mahmoud" 
         width="80" 
         style="border-radius: 50%; object-fit: cover; height: auto; display: block;" 
