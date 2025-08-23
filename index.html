@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostafa Mahmoud - Senior Unity & VR Developer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .profile-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #667eea;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-info h1 {
+            font-size: 2.5em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .profile-info .title {
+            font-size: 1.3em;
+            color: #7f8c8d;
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #555;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .contact-item:hover {
+            color: #667eea;
+        }
+
+        .tagline {
+            font-size: 1.2em;
+            color: #555;
+            font-style: italic;
+            margin-top: 20px;
+            padding: 20px;
+            background: linear-gradient(45deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+
+        .section {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            font-size: 2em;
+            color: #2c3e50;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .section h2::before {
+            content: '';
+            width: 4px;
+            height: 40px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            border-radius: 2px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .skill-category h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-tag {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 25px;
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+
+        .experience-item {
+            border-left: 4px solid #667eea;
+            padding-left: 25px;
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        .experience-item::before {
+            content: '';
+            position: absolute;
+            left: -8px;
+            top: 0;
+            width: 12px;
+            height: 12px;
+            background: #667eea;
+            border-radius: 50%;
+        }
+
+        .company-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+
+        .company-logo {
+            width: 30px;
+            height: 30px;
+            object-fit: contain;
+        }
+
+        .job-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .company-name {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .company-name:hover {
+            text-decoration: underline;
+        }
+
+        .duration {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+
+        .project-card {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
+            border-radius: 15px;
+            padding: 25px;
+            border: 1px solid rgba(102, 126, 234, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+        }
+
+        .project-title {
+            font-size: 1.4em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .project-date {
+            color: #667eea;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .project-features {
+            margin: 15px 0;
+        }
+
+        .project-features ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .project-features li {
+            padding: 5px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .project-features li::before {
+            content: '🔹';
+            position: absolute;
+            left: 0;
+        }
+
+        .project-links {
+            margin-top: 15px;
+        }
+
+        .project-link {
+            display: inline-block;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            transition: transform 0.3s;
+        }
+
+        .project-link:hover {
+            transform: scale(1.05);
+        }
+
+        .certificates {
+            text-align: center;
+        }
+
+        .cert-images {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .cert-image {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .language-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .language-table th,
+        .language-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .language-table th {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        .footer-contacts {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .footer-contact {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #555;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+
+        .footer-contact:hover {
+            color: #667eea;
+        }
+
+        @media (max-width: 768px) {
+            .profile-section {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .section {
+                padding: 25px;
+            }
+
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="profile-section">
+                <img src="https://raw.githubusercontent.com/MostafaMahmoudAbdelrahman/mostafa-mahmoud-portfolio/main/resources/profile-pic.PNG" 
+                     alt="Mostafa Mahmoud" class="profile-pic">
+                <div class="profile-info">
+                    <h1>Mostafa Mahmoud</h1>
+                    <div class="title">Senior Unity & VR Developer | C# Specialist</div>
+                    <div class="contact-info">
+                        <a href="mailto:drshdrsh26@yahoo.com" class="contact-item">
+                            <i class="fas fa-envelope"></i> drshdrsh26@yahoo.com
+                        </a>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i> Cairo, Egypt
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i> +20 101 780 0204
+                        </div>
+                        <a href="https://eg.linkedin.com/in/mostafa-mahmoud-abdelrahman" target="_blank" class="contact-item">
+                            <i class="fab fa-linkedin"></i> LinkedIn Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tagline">
+                🎯 Passionate about building immersive game worlds, competitive multiplayer systems, and cutting-edge VR experiences using Unity & C#
+            </div>
+        </header>    
+    <!-- About Section -->
+        <section class="section">
+            <h2><i class="fas fa-user"></i> About Me</h2>
+            <p>Experienced Senior Unity Developer with over 7 years of expertise in VR, multiplayer games, and simulation development. Proficient in Unity and C#, with strong skills in multiplayer networking (Photon), cloud services (Firebase), and advanced Unity systems such as Universal Render Pipeline (URP) and Addressable Assets.</p>
+            <br>
+            <p>Experienced in creating custom editor tooling using Odin Inspector to streamline development workflows. Passionate about building immersive, efficient, and scalable applications across mobile, VR, and web platforms. A strong communicator and collaborative agile team player dedicated to delivering innovative solutions and high-quality user experiences.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section">
+            <h2><i class="fas fa-code"></i> Technical Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Core Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Unity 3D (7+ years)</span>
+                        <span class="skill-tag">C# Programming</span>
+                        <span class="skill-tag">Game Development</span>
+                        <span class="skill-tag">VR Development</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Multiplayer & Networking</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Photon PUN</span>
+                        <span class="skill-tag">Photon Fusion</span>
+                        <span class="skill-tag">Real-time Multiplayer</span>
+                        <span class="skill-tag">Chat Systems</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>VR Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Meta Quest</span>
+                        <span class="skill-tag">HTC Vive</span>
+                        <span class="skill-tag">PC VR</span>
+                        <span class="skill-tag">VR Training Simulations</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Cloud & Backend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">Unity Cloud Save</span>
+                        <span class="skill-tag">Realtime Database</span>
+                        <span class="skill-tag">Authentication</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Unity Systems</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Addressable Assets</span>
+                        <span class="skill-tag">Universal Render Pipeline</span>
+                        <span class="skill-tag">Custom Editor Tools</span>
+                        <span class="skill-tag">Odin Inspector</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Platforms & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Mobile (iOS/Android)</span>
+                        <span class="skill-tag">WebGL</span>
+                        <span class="skill-tag">CI/CD (GitHub Actions)</span>
+                        <span class="skill-tag">Agile Development</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="section">
+            <h2><i class="fas fa-briefcase"></i> Professional Experience</h2>
+            
+            <div class="experience-item">
+                <div class="company-header">
+                    <div class="job-title">Senior Unity Developer</div>
+                    <a href="https://www.rmg-sa.com/" target="_blank" class="company-name">RMG, Riyadh, Saudi Arabia</a>
+                    <img src="https://raw.githubusercontent.com/MostafaMahmoudAbdelrahman/mostafa-mahmoud-portfolio/main/resources/rmg-logo.png" 
+                         alt="RMG Logo" class="company-logo">
+                </div>
+                <div class="duration">Aug 2024 – Present</div>
+                <p>Lead development of mobile multiplayer games and interactive experiences.</p>
+            </div>
+
+            <div class="experience-item">
+                <div class="company-header">
+                    <div class="job-title">Senior Unity Developer (Part-time)</div>
+                    <a href="https://www.cyberx.world/" target="_blank" class="company-name">CyberX</a>
+                    <img src="https://raw.githubusercontent.com/MostafaMahmoudAbdelrahman/mostafa-mahmoud-portfolio/main/resources/cyberx-logo.svg" 
+                         alt="CyberX Logo" class="company-logo">
+                </div>
+                <div class="duration">Aug 2024 – Present</div>
+                <p>Contributing to innovative Unity projects and VR experiences as a part-time developer.</p>
+            </div>
+
+            <div class="experience-item">
+                <div class="company-header">
+                    <div class="job-title">Senior Unity Developer</div>
+                    <a href="https://arconme.com/" target="_blank" class="company-name">ARCON</a>
+                    <img src="https://raw.githubusercontent.com/MostafaMahmoudAbdelrahman/mostafa-mahmoud-portfolio/main/resources/arcon-logo.png" 
+                         alt="ARCON Logo" class="company-logo">
+                </div>
+                <div class="duration">Apr 2022 – Jul 2024</div>
+                <p>Developed educational simulation projects in Unity with a focus on clean, efficient C# code.</p>
+            </div>
+
+            <div class="experience-item">
+                <div class="company-header">
+                    <div class="job-title">Senior Unity Developer (Freelance)</div>
+                    <div class="company-name">Global Business Strategies (GBS)</div>
+                </div>
+                <div class="duration">Feb 2022 – Feb 2023</div>
+                <p>Collaborated remotely on simulation projects for meetings and events, delivering Unity-based solutions with strong C# expertise.</p>
+            </div>
+
+            <div class="experience-item">
+                <div class="company-header">
+                    <div class="job-title">Unity Developer</div>
+                    <a href="https://bluezonekw.com/" target="_blank" class="company-name">BlueZone Web</a>
+                    <img src="https://raw.githubusercontent.com/MostafaMahmoudAbdelrahman/mostafa-mahmoud-portfolio/main/resources/bluezone-logo.png" 
+                         alt="BlueZone Web Logo" class="company-logo">
+                </div>
+                <div class="duration">Full-time: Oct 2021 – Apr 2022 | Part-time: Apr 2022 – Feb 2024</div>
+                <p>Developed 3D applications and multiplayer games using Unity, C#, Photon-ML, and Firebase backend.</p>
+            </div>
+
+            <div class="experience-item">
+                <div class="company-header">
+                    <div class="job-title">Unity Developer</div>
+                    <a href="https://b-vision.tech/" target="_blank" class="company-name">Bright Vision Tech</a>
+                    <img src="https://raw.githubusercontent.com/MostafaMahmoudAbdelrahman/mostafa-mahmoud-portfolio/main/resources/brightvisiontech-logo.png" 
+                         alt="Bright Vision Tech Logo" class="company-logo">
+                </div>
+                <div class="duration">Jul 2018 – Apr 2019 (Full-time) | May 2019 – Sep 2021 (Project-based)</div>
+                <p>Built VR training simulations for firefighting, firearms, and driving.</p>
+            </div>
+
+            <div class="experience-item">
+                <div class="company-header">
+                    <div class="job-title">Project Reviewer / Classroom Mentor</div>
+                    <a href="https://www.udacity.com/" target="_blank" class="company-name">Udacity</a>
+                    <img src="https://raw.githubusercontent.com/MostafaMahmoudAbdelrahman/mostafa-mahmoud-portfolio/main/resources/udacity-logo.svg" 
+                         alt="Udacity Logo" class="company-logo">
+                </div>
+                <div class="duration">Nov 2017 – Jun 2018</div>
+                <p>Mentored and reviewed student projects, enhancing communication and mentoring skills.</p>
+            </div>
+        </section>    
+    <!-- Projects Section -->
+        <section class="section">
+            <h2><i class="fas fa-gamepad"></i> Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <div class="project-title">🏃‍♂️ Duroob Al-Majd</div>
+                    <div class="project-date">February 2025</div>
+                    <p>Epic VR experience inspired by Saudi culture, where players race through stunning environments while encountering interactive questions about Saudi history and culture.</p>
+                    <div class="project-features">
+                        <strong>Key Features:</strong>
+                        <ul>
+                            <li>Authentic Saudi environments with traditional heritage</li>
+                            <li>Endless running with increasing challenges</li>
+                            <li>Cultural trivia and interactive surveys</li>
+                            <li>Optimized for Meta Quest devices</li>
+                            <li>Global leaderboards</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://www.meta.com/experiences/9097137060321303/" target="_blank" class="project-link">
+                            <i class="fas fa-vr-cardboard"></i> Play on Meta Quest
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-title">🔬 RMG Lab</div>
+                    <div class="project-date">September 2024</div>
+                    <p>Innovative simulation app for RMG's Innovation Lab, leveraging immersive VR technology to revolutionize simulation, analysis, and problem-solving.</p>
+                    <div class="project-features">
+                        <strong>Key Features:</strong>
+                        <ul>
+                            <li>Realistic, interactive business simulations</li>
+                            <li>Virtual environment testing solutions</li>
+                            <li>Collaboration tools for teamwork</li>
+                            <li>Customizable scenarios</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://www.meta.com/experiences/rmg-lab/9123235517790926/" target="_blank" class="project-link">
+                            <i class="fas fa-vr-cardboard"></i> Explore on Meta Quest
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-title">🧪 Labs For Home</div>
+                    <div class="project-date">February 2024</div>
+                    <p>Exclusive simulation platform for UAE schools enabling students to conduct physics, chemistry, and biology experiments virtually at home.</p>
+                    <div class="project-features">
+                        <strong>Key Features:</strong>
+                        <ul>
+                            <li>Interactive virtual experiments</li>
+                            <li>Cross-platform compatibility</li>
+                            <li>Realistic lab simulations</li>
+                            <li>Remote learning enhancement</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://youtu.be/EnRGWVXgOus" target="_blank" class="project-link">
+                            <i class="fas fa-play"></i> Watch Trailer
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-title">🤝 GVS (MeetinVR)</div>
+                    <div class="project-date">March 2023</div>
+                    <p>Innovative virtual meeting platform transforming traditional video calls into immersive 3D metaverse experiences for corporate clients.</p>
+                    <div class="project-features">
+                        <strong>Key Features:</strong>
+                        <ul>
+                            <li>Multiplayer functionality with Photon</li>
+                            <li>Voice, video calls via Agora SDK</li>
+                            <li>Immersive 3D meeting environments</li>
+                            <li>Screen sharing capabilities</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://youtu.be/D_eH1XC2uh8" target="_blank" class="project-link">
+                            <i class="fas fa-play"></i> Watch Demo
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-title">🤠 CowBoy</div>
+                    <div class="project-date">February 2023</div>
+                    <p>First-person shooter mobile game with gyroscope controls, featuring one-on-one matches, traps, and competitive gameplay.</p>
+                    <div class="project-features">
+                        <strong>Key Features:</strong>
+                        <ul>
+                            <li>Gyroscope aiming controls</li>
+                            <li>Real-time multiplayer support</li>
+                            <li>Trap deployment system</li>
+                            <li>Firebase Realtime Database</li>
+                            <li>Leaderboard and battle pass</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://youtu.be/buLiEuP_0yo" target="_blank" class="project-link">
+                            <i class="fas fa-play"></i> Gameplay Video
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-title">🛍️ My Mall</div>
+                    <div class="project-date">May 2022</div>
+                    <p>First real hybrid platform in the Middle East combining VR and retail, featuring over 300 commercial stores in a 3D virtual mall.</p>
+                    <div class="project-features">
+                        <strong>Key Features:</strong>
+                        <ul>
+                            <li>300+ stores and exhibition booths</li>
+                            <li>Immersive VR social shopping</li>
+                            <li>3D product views</li>
+                            <li>Available on iOS and Android</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://apkpure.com/my-mall/com.bluezone.mymall/amp" target="_blank" class="project-link">
+                            <i class="fab fa-android"></i> Android
+                        </a>
+                        <a href="https://apps.apple.com/hr/app/mymall-%D9%85%D8%A7%D9%8A-%D9%85%D9%88%D9%84/id1566384852" target="_blank" class="project-link">
+                            <i class="fab fa-apple"></i> iOS
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-title">🚒 Saudi Civil Defense VR Training</div>
+                    <div class="project-date">March 2019</div>
+                    <p>VR training simulation for Saudi Civil Defense Ministry using HTC Vive, focusing on motor maintenance, forklift operation, and fire safety.</p>
+                    <div class="project-features">
+                        <strong>Key Features:</strong>
+                        <ul>
+                            <li>Realistic VR worker training</li>
+                            <li>Motor repair simulations</li>
+                            <li>Forklift driving training</li>
+                            <li>Fire extinguisher use training</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://youtu.be/I1Lyocgj0M4" target="_blank" class="project-link">
+                            <i class="fas fa-play"></i> Watch Demo
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Education & Certificates Section -->
+        <section class="section">
+            <h2><i class="fas fa-graduation-cap"></i> Education & Certifications</h2>
+            
+            <div style="margin-bottom: 30px;">
+                <h3 style="color: #667eea; margin-bottom: 10px;">Education</h3>
+                <div style="border-left: 4px solid #667eea; padding-left: 20px;">
+                    <strong>Bachelor's Degree in Computer and Artificial Intelligence</strong><br>
+                    <em>Benha University, Egypt (Aug 2014 – Aug 2018)</em><br>
+                    Specialized in Computer Science
+                </div>
+            </div>
+
+            <div class="certificates">
+                <h3 style="color: #667eea; margin-bottom: 20px;">Udacity Nanodegrees</h3>
+                <div class="cert-images">
+                    <img src="https://raw.githubusercontent.com/MostafaMahmoudAbdelrahman/mostafa-mahmoud-portfolio/main/resources/android-basics-nanodegree.svg" 
+                         alt="Android Basics Nanodegree" class="cert-image">
+                    <img src="https://raw.githubusercontent.com/MostafaMahmoudAbdelrahman/mostafa-mahmoud-portfolio/main/resources/virtual-reality-nanodegree.svg" 
+                         alt="Virtual Reality Nanodegree" class="cert-image">
+                </div>
+                <div style="margin-top: 20px;">
+                    <a href="https://www.udacity.com/certificate/X6S5TFLD" target="_blank" class="project-link">
+                        <i class="fas fa-certificate"></i> Android Basics Certificate
+                    </a>
+                    <a href="https://www.udacity.com/certificate/CTNH7HQS" target="_blank" class="project-link">
+                        <i class="fas fa-certificate"></i> Virtual Reality Certificate
+                    </a>
+                </div>
+            </div>
+
+            <div style="margin-top: 30px;">
+                <h3 style="color: #667eea; margin-bottom: 15px;">Language Skills</h3>
+                <table class="language-table">
+                    <thead>
+                        <tr>
+                            <th>Language</th>
+                            <th>Proficiency</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Arabic</td>
+                            <td>Native</td>
+                        </tr>
+                        <tr>
+                            <td>English</td>
+                            <td>Upper Intermediate</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Contact Footer -->
+        <footer class="footer">
+            <h2><i class="fas fa-envelope"></i> Let's Connect</h2>
+            <div class="footer-contacts">
+                <a href="tel:+201017800204" class="footer-contact">
+                    <i class="fas fa-phone"></i> +20 101 780 0204
+                </a>
+                <a href="https://wa.me/966560358978" target="_blank" class="footer-contact">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                <a href="mailto:drshdrsh26@yahoo.com" class="footer-contact">
+                    <i class="fas fa-envelope"></i> drshdrsh26@yahoo.com
+                </a>
+                <a href="https://eg.linkedin.com/in/mostafa-mahmoud-abdelrahman" target="_blank" class="footer-contact">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections
+        document.querySelectorAll('.section, .project-card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
