@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -v \"^\\\\.\\\\.$\")",
+      "Bash(wc -c /d/my/mostafa-mahmoud-portfolio/resources/*.PNG /d/my/mostafa-mahmoud-portfolio/resources/*.png)",
+      "Bash(command -v magick)",
+      "Bash(command -v convert)",
+      "Bash(command -v ffmpeg)",
+      "Bash(node -e \"console.log\\('node ok'\\)\")",
+      "Bash(node -e \"require\\('sharp'\\)\")",
+      "Bash(npx --yes sharp-cli --version)",
+      "Bash(npx sharp-cli *)",
+      "Bash(du -sh resources/*.PNG resources/*.png resources/*.webp)"
+    ]
+  }
+}

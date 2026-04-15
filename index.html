@@ -3,7 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Senior Game Developer - Portfolio</title>
+    <title>Mostafa Mahmoud — Senior Unity & VR Game Developer</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Mostafa Mahmoud is a Senior Unity & VR Game Developer and Co-founder of Studio Ajaib. 8+ years building XR, mobile and multiplayer games. Arab Youth Hackathon 1st Place winner (AED 350K grant).">
+    <meta name="keywords" content="Unity Developer, VR Developer, XR Developer, Game Developer, Senior Unity, Meta Quest, Mobile Games, Multiplayer, MENA, Egypt">
+    <meta name="author" content="Mostafa Mahmoud">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://mostafamahmoud.dev/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mostafamahmoud.dev/">
+    <meta property="og:title" content="Mostafa Mahmoud — Senior Unity & VR Game Developer">
+    <meta property="og:description" content="8+ years building XR, mobile and multiplayer games. Co-founder of Studio Ajaib & Arab Youth Hackathon 1st Place winner.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/MostafaMahmoudAbdelrahman/mostafa-mahmoud-portfolio/main/resources/profile-pic.PNG">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mostafa Mahmoud — Senior Unity & VR Game Developer">
+    <meta name="twitter:description" content="8+ years building XR, mobile and multiplayer games. Co-founder of Studio Ajaib & Arab Youth Hackathon 1st Place winner.">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/MostafaMahmoudAbdelrahman/mostafa-mahmoud-portfolio/main/resources/profile-pic.PNG">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="resources/studio-ajaib-logo.PNG">
+    <link rel="apple-touch-icon" href="resources/studio-ajaib-logo.PNG">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Mostafa Mahmoud",
+      "jobTitle": "Senior Unity & VR Game Developer",
+      "description": "Co-founder of Studio Ajaib, Senior Unity Developer with 8+ years in XR, mobile and multiplayer game development.",
+      "url": "https://mostafamahmoud.dev/",
+      "image": "https://raw.githubusercontent.com/MostafaMahmoudAbdelrahman/mostafa-mahmoud-portfolio/main/resources/profile-pic.PNG",
+      "email": "drshdrsh26@yahoo.com",
+      "telephone": "+201017800204",
+      "sameAs": [
+        "https://www.linkedin.com/in/mostafa-mahmoud-abdelrahman"
+      ],
+      "knowsAbout": ["Unity3D", "VR Development", "XR", "Mobile Games", "C#", "Meta Quest", "Multiplayer Networking"]
+    }
+    </script>
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -26,11 +70,14 @@
                 <li><a href="#articles" class="nav-link">Articles</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-            <div class="hamburger">
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light/dark theme" title="Toggle theme">
+                <span class="theme-icon" id="theme-icon">🌙</span>
+            </button>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
                 <span></span>
                 <span></span>
                 <span></span>
-            </div>
+            </button>
         </div>
     </nav>
 
@@ -42,17 +89,41 @@
                     Senior Game<br>
                     <span class="gradient-text">Developer</span>
                 </h1>
+                <div class="typewriter-wrap reveal-text">
+                    <span id="typewriter"></span><span class="cursor"></span>
+                </div>
                 <p class="hero-tagline reveal-text">
-                    Co-founder @ Studio Ajaib | Senior Unity & VR Developer | Award-Winning Game Engineer | Arab Youth Hackathon 1st Place Winner (AED 350K Grant)
+                    Co-founder @ Studio Ajaib · Award-Winning Game Engineer · Arab Youth Hackathon 1st Place Winner (AED 350K Grant)
                 </p>
+                <div class="hero-stats reveal-text">
+                    <div class="stat-item">
+                        <div class="stat-number"><span class="stat-value" data-count="8">0</span><span class="stat-suffix">+</span></div>
+                        <span class="stat-label">Years XP</span>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number"><span class="stat-value" data-count="20">0</span><span class="stat-suffix">+</span></div>
+                        <span class="stat-label">Games Shipped</span>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number"><span class="stat-prefix">AED</span><span class="stat-value" data-count="350">0</span><span class="stat-suffix">K</span></div>
+                        <span class="stat-label">Grant Won</span>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number"><span class="stat-value" data-count="1">0</span><span class="stat-suffix">st</span></div>
+                        <span class="stat-label">Hackathon</span>
+                    </div>
+                </div>
                 <div class="hero-buttons reveal-text">
-                    <a href="#projects" class="btn btn-primary">View My Work</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-primary">⚔ View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">📡 Get In Touch</a>
                 </div>
             </div>
             <div class="hero-image">
                 <div class="profile-wrapper">
-                    <img src="resources/profile-pic.PNG" alt="Profile" class="profile-pic" loading="lazy">
+                    <picture>
+                        <source srcset="resources/profile-pic.webp" type="image/webp">
+                        <img src="resources/profile-pic.PNG" alt="Mostafa Mahmoud — Senior Unity &amp; VR Game Developer" class="profile-pic" loading="lazy">
+                    </picture>
                     <div class="profile-glow"></div>
                     <div class="profile-pulse"></div>
                 </div>
@@ -103,84 +174,139 @@
     <section id="experience" class="experience">
         <div class="container">
             <h2 class="section-title reveal-text">Work Experience</h2>
-            <div class="experience-items">
-                <div class="experience-item reveal-text">
-                    <div class="company-header">
-                        <div class="job-title">Co-Founder & Lead Game Developer</div>
-                        <a href="https://studio-ajaib.com/" target="_blank" class="company-name">Studio Ajaib · Self-employed</a>
-                        <img src="resources/studio-ajaib-logo.PNG" alt="Studio Ajaib Logo" class="company-logo" loading="lazy">
+            <div class="timeline">
+                <div class="timeline-item reveal-text">
+                    <div class="timeline-dot"></div>
+                    <div class="experience-item">
+                        <div class="company-header">
+                            <picture>
+                                <source srcset="resources/studio-ajaib-logo.webp" type="image/webp">
+                                <img src="resources/studio-ajaib-logo.PNG" alt="Studio Ajaib Logo" class="company-logo" loading="lazy">
+                            </picture>
+                            <div class="company-header-text">
+                                <div class="job-title">Co-Founder & Lead Game Developer</div>
+                                <a href="https://studio-ajaib.com/" target="_blank" class="company-name">Studio Ajaib · Self-employed</a>
+                            </div>
+                        </div>
+                        <div class="duration">Feb 2026 – Present</div>
+                        <p>Led the development of "Muhakah", a high-fidelity simulation project built with Unreal Engine. Secured 1st Place at the Arab Youth Hackathon. Obtained AED 350,000 in funding. Showcased at the World Governments Summit 2026 in Dubai. Technologies: Unreal Engine, C++, Blueprints, Physics Simulations.</p>
                     </div>
-                    <div class="duration">Feb 2026 – Present</div>
-                    <p>Led the development of "Muhakah", a high-fidelity simulation project built with Unreal Engine. Secured 1st Place at the Arab Youth Hackathon (organized by the Arab Youth Center). Obtained AED 350,000 in development funding to scale the prototype into a full-scale production. Showcased the technical demo at the World Governments Summit 2026 in Dubai. Technologies: Unreal Engine, C++, Blueprints, Physics Simulations, High-End Optimization.</p>
                 </div>
 
-                <div class="experience-item reveal-text">
-                    <div class="company-header">
-                        <div class="job-title">Senior Unity Developer & Emerging Tech Lead</div>
-                        <a href="https://www.rmg-sa.com/" target="_blank" class="company-name">RMG, Riyadh, Saudi Arabia</a>
-                        <img src="resources/rmg-logo.png" alt="RMG Logo" class="company-logo" loading="lazy">
+                <div class="timeline-item reveal-text">
+                    <div class="timeline-dot"></div>
+                    <div class="experience-item">
+                        <div class="company-header">
+                            <picture>
+                                <source srcset="resources/rmg-logo.webp" type="image/webp">
+                                <img src="resources/rmg-logo.png" alt="RMG Logo" class="company-logo" loading="lazy">
+                            </picture>
+                            <div class="company-header-text">
+                                <div class="job-title">Senior Unity Developer & Emerging Tech Lead</div>
+                                <a href="https://www.rmg-sa.com/" target="_blank" class="company-name">RMG, Riyadh, Saudi Arabia</a>
+                            </div>
+                        </div>
+                        <div class="duration">Aug 2024 – Present</div>
+                        <p>Leading XR and Emerging Tech initiatives, architecting AI-powered solutions including a Virtual Mutamir (Three.js/ChatGPT/ElevenLabs). Represented the firm at LEAP 25 and IGF 2025, providing technical consultancy for Saudi government digital twins.</p>
                     </div>
-                    <div class="duration">Aug 2024 – Present</div>
-                    <p>Leading XR and Emerging Tech initiatives, architecting AI-powered solutions including a Virtual Mutamir (Three.js/ChatGPT/ElevenLabs). Represented the firm at LEAP 25 and IGF 2025, providing technical consultancy for Saudi government digital twins and Unity Cloud migrations.</p>
                 </div>
 
-                <div class="experience-item reveal-text">
-                    <div class="company-header">
-                        <div class="job-title">Senior Unity Developer (Part-time)</div>
-                        <a href="https://www.cyberx.world/" target="_blank" class="company-name">CyberX</a>
-                        <img src="resources/cyberx-logo.svg" alt="CyberX Logo" class="company-logo" loading="lazy">
+                <div class="timeline-item reveal-text">
+                    <div class="timeline-dot"></div>
+                    <div class="experience-item">
+                        <div class="company-header">
+                            <img src="resources/cyberx-logo.svg" alt="CyberX Logo" class="company-logo" loading="lazy">
+                            <div class="company-header-text">
+                                <div class="job-title">Senior Unity Developer (Part-time)</div>
+                                <a href="https://www.cyberx.world/" target="_blank" class="company-name">CyberX</a>
+                            </div>
+                        </div>
+                        <div class="duration">Aug 2024 – Present</div>
+                        <p>Architecting gamified cybersecurity awareness solutions, delivering 20+ WebGL and VR (Meta Quest) experiences. Transforming classic game mechanics into educational simulations and mentoring junior developers.</p>
                     </div>
-                    <div class="duration">Aug 2024 – Present</div>
-                    <p>Architecting gamified cybersecurity awareness solutions, delivering 20+ WebGL and VR (Meta Quest) experiences. Specialized in transforming classic game mechanics into educational simulations and mentoring junior developers to streamline the production pipeline.</p>
                 </div>
 
-                <div class="experience-item reveal-text">
-                    <div class="company-header">
-                        <div class="job-title">Mid Unity 3D Developer</div>
-                        <a href="https://arconme.com/" target="_blank" class="company-name">ARCON</a>
-                        <img src="resources/arcon-logo.png" alt="ARCON Logo" class="company-logo" loading="lazy">
+                <div class="timeline-item reveal-text">
+                    <div class="timeline-dot"></div>
+                    <div class="experience-item">
+                        <div class="company-header">
+                            <picture>
+                                <source srcset="resources/arcon-logo.webp" type="image/webp">
+                                <img src="resources/arcon-logo.png" alt="ARCON Logo" class="company-logo" loading="lazy">
+                            </picture>
+                            <div class="company-header-text">
+                                <div class="job-title">Mid Unity 3D Developer</div>
+                                <a href="https://arconme.com/" target="_blank" class="company-name">ARCON</a>
+                            </div>
+                        </div>
+                        <div class="duration">Apr 2022 – Jul 2024</div>
+                        <p>Re-architected legacy educational platforms for UAE schools using Unity Addressables, optimizing 100+ simulations. Engineered IoT bridges for Arduino sensors and implemented HMAC Encryption security.</p>
                     </div>
-                    <div class="duration">Apr 2022 – Jul 2024</div>
-                    <p>Re-architected legacy educational platforms for UAE schools using Unity Addressables, optimizing 100+ simulations. Engineered IoT bridges for Arduino sensors and implemented secure data integrity via HMAC Encryption and custom Speech-to-Text accessibility systems.</p>
                 </div>
 
-                <div class="experience-item reveal-text">
-                    <div class="company-header">
-                        <div class="job-title">Senior Unity Developer (Contract)</div>
-                        <div class="company-name">Global Business Strategies (GBS)</div>
+                <div class="timeline-item reveal-text">
+                    <div class="timeline-dot"></div>
+                    <div class="experience-item">
+                        <div class="company-header">
+                            <div class="company-header-text">
+                                <div class="job-title">Senior Unity Developer (Contract)</div>
+                                <div class="company-name">Global Business Strategies (GBS)</div>
+                            </div>
+                        </div>
+                        <div class="duration">Feb 2022 – Feb 2023</div>
+                        <p>Optimized high-end architectural virtual meeting platforms for international teams. Refactored unoptimized codebases, reducing memory footprints and integrating real-time multiplayer via Photon PUN and Agora SDK.</p>
                     </div>
-                    <div class="duration">Feb 2022 – Feb 2023</div>
-                    <p>Optimized high-end architectural virtual meeting platforms for international teams. Refactored unoptimized codebases, reducing memory footprints and integrating real-time multiplayer features via Photon PUN and Agora SDK (Voice/Video/Screen Share).</p>
                 </div>
 
-                <div class="experience-item reveal-text">
-                    <div class="company-header">
-                        <div class="job-title">Unity Developer</div>
-                        <a href="https://bluezonekw.com/" target="_blank" class="company-name">BlueZone Web</a>
-                        <img src="resources/bluezone-logo.png" alt="BlueZone Web Logo" class="company-logo" loading="lazy">
+                <div class="timeline-item reveal-text">
+                    <div class="timeline-dot"></div>
+                    <div class="experience-item">
+                        <div class="company-header">
+                            <picture>
+                                <source srcset="resources/bluezone-logo.webp" type="image/webp">
+                                <img src="resources/bluezone-logo.png" alt="BlueZone Web Logo" class="company-logo" loading="lazy">
+                            </picture>
+                            <div class="company-header-text">
+                                <div class="job-title">Unity Developer</div>
+                                <a href="https://bluezonekw.com/" target="_blank" class="company-name">BlueZone Web</a>
+                            </div>
+                        </div>
+                        <div class="duration">Oct 2021 – Feb 2024</div>
+                        <p>Developed mobile FPS games and hybrid 3D retail platforms (MyMall) for the Kuwaiti market. Integrated Firebase for player profiles and Photon PUN for real-time social interactions.</p>
                     </div>
-                    <div class="duration">Full-time: Oct 2021 – Apr 2022 | Part-time: Apr 2022 – Feb 2024</div>
-                    <p>Developed mobile FPS games and hybrid 3D retail platforms (MyMall) for the Kuwaiti market. Integrated Firebase for player profiles and leveraged Photon PUN for real-time social interactions, syncing game data with web backends via RESTful APIs.</p>
                 </div>
 
-                <div class="experience-item reveal-text">
-                    <div class="company-header">
-                        <div class="job-title">Unity VR Developer</div>
-                        <a href="https://b-vision.tech/" target="_blank" class="company-name">Bright Vision Tech</a>
-                        <img src="resources/brightvisiontech-logo.png" alt="Bright Vision Tech Logo" class="company-logo" loading="lazy">
+                <div class="timeline-item reveal-text">
+                    <div class="timeline-dot"></div>
+                    <div class="experience-item">
+                        <div class="company-header">
+                            <picture>
+                                <source srcset="resources/brightvisiontech-logo.webp" type="image/webp">
+                                <img src="resources/brightvisiontech-logo.png" alt="Bright Vision Tech Logo" class="company-logo" loading="lazy">
+                            </picture>
+                            <div class="company-header-text">
+                                <div class="job-title">Unity VR Developer</div>
+                                <a href="https://b-vision.tech/" target="_blank" class="company-name">Bright Vision Tech</a>
+                            </div>
+                        </div>
+                        <div class="duration">Jul 2018 – Sep 2021</div>
+                        <p>Built high-fidelity VR simulations for firefighting, firearms, and industrial safety for Saudi government entities. Focused on physics-based interactions on HTC Vive, within an Agile development framework.</p>
                     </div>
-                    <div class="duration">Jul 2018 – Sep 2021</div>
-                    <p>Built high-fidelity VR simulations for firefighting, firearms, and industrial safety for Saudi government entities. Focused on physics-based interactions and realistic environmental simulations on HTC Vive, working within an Agile development framework.</p>
                 </div>
 
-                <div class="experience-item reveal-text">
-                    <div class="company-header">
-                        <div class="job-title">Project Reviewer / Classroom Mentor</div>
-                        <a href="https://www.udacity.com/" target="_blank" class="company-name">Udacity</a>
-                        <img src="resources/udacity-logo.svg" alt="Udacity Logo" class="company-logo" loading="lazy">
+                <div class="timeline-item reveal-text">
+                    <div class="timeline-dot"></div>
+                    <div class="experience-item">
+                        <div class="company-header">
+                            <img src="resources/udacity-logo.svg" alt="Udacity Logo" class="company-logo" loading="lazy">
+                            <div class="company-header-text">
+                                <div class="job-title">Project Reviewer / Classroom Mentor</div>
+                                <a href="https://www.udacity.com/" target="_blank" class="company-name">Udacity</a>
+                            </div>
+                        </div>
+                        <div class="duration">Nov 2017 – Jun 2018</div>
+                        <p>Provided technical mentorship and code reviews for the VR Developer Nanodegree. Evaluated student projects on performance optimization, 3D math, and VR UI/UX principles.</p>
                     </div>
-                    <div class="duration">Nov 2017 – Jun 2018</div>
-                    <p>Provided technical mentorship and detailed code reviews for the VR Developer Nanodegree. Evaluated student projects on performance optimization, 3D math, and VR UI/UX principles, enhancing overall code quality and educational outcomes.</p>
                 </div>
             </div>
         </div>
@@ -217,10 +343,10 @@
         <div class="container">
             <h2 class="section-title reveal-text">All Projects</h2>
             <div class="projects-grid">
-                <a href="https://www.meta.com/experiences/9097137060321303/" class="project-card reveal-text" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.meta.com/experiences/9097137060321303/" class="project-card reveal-text" data-platform="vr" target="_blank" rel="noopener noreferrer">
                     <div class="project-card-header">
                         <h3>Duroob Al-Majd</h3>
-                        <span class="project-badge">Meta Quest</span>
+                        <span class="project-badge badge-vr">Meta Quest</span>
                     </div>
                     <p class="project-card-desc">Immersive VR experience on Meta Quest platform showcasing advanced interaction design and performance optimization.</p>
                     <div class="project-card-tags">
@@ -231,10 +357,10 @@
                     <span class="project-card-arrow">→</span>
                 </a>
 
-                <a href="https://www.meta.com/experiences/rmg-lab/9123235517790926/" class="project-card reveal-text" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.meta.com/experiences/rmg-lab/9123235517790926/" class="project-card reveal-text" data-platform="vr" target="_blank" rel="noopener noreferrer">
                     <div class="project-card-header">
                         <h3>RMG Lab</h3>
-                        <span class="project-badge">Meta Quest</span>
+                        <span class="project-badge badge-vr">Meta Quest</span>
                     </div>
                     <p class="project-card-desc">Advanced VR laboratory simulation for RMG, featuring high-fidelity 3D environments and interactive training modules.</p>
                     <div class="project-card-tags">
@@ -245,12 +371,12 @@
                     <span class="project-card-arrow">→</span>
                 </a>
 
-                <a href="https://apps.apple.com/hr/app/mymall" class="project-card reveal-text" target="_blank" rel="noopener noreferrer">
+                <a href="https://apps.apple.com/hr/app/mymall" class="project-card reveal-text" data-platform="mobile" target="_blank" rel="noopener noreferrer">
                     <div class="project-card-header">
-                        <h3>My Mall - iOS</h3>
-                        <span class="project-badge">App Store</span>
+                        <h3>My Mall — iOS</h3>
+                        <span class="project-badge badge-mobile">App Store</span>
                     </div>
-                    <p class="project-card-desc">Mobile shopping experience for iOS platform with optimized performance and intuitive user interface.</p>
+                    <p class="project-card-desc">Mobile shopping experience for iOS with optimized performance and intuitive 3D user interface.</p>
                     <div class="project-card-tags">
                         <span class="tag">iOS</span>
                         <span class="tag">Mobile</span>
@@ -259,12 +385,12 @@
                     <span class="project-card-arrow">→</span>
                 </a>
 
-                <a href="https://apkpure.com/my-mall/com.bluezone.mymall/" class="project-card reveal-text" target="_blank" rel="noopener noreferrer">
+                <a href="https://apkpure.com/my-mall/com.bluezone.mymall/" class="project-card reveal-text" data-platform="mobile" target="_blank" rel="noopener noreferrer">
                     <div class="project-card-header">
-                        <h3>My Mall - Android</h3>
-                        <span class="project-badge">Google Play</span>
+                        <h3>My Mall — Android</h3>
+                        <span class="project-badge badge-mobile">Google Play</span>
                     </div>
-                    <p class="project-card-desc">Mobile shopping experience for Android platform with cross-platform optimization and seamless performance.</p>
+                    <p class="project-card-desc">Mobile shopping experience for Android with cross-platform optimization and seamless performance.</p>
                     <div class="project-card-tags">
                         <span class="tag">Android</span>
                         <span class="tag">Mobile</span>
@@ -273,10 +399,10 @@
                     <span class="project-card-arrow">→</span>
                 </a>
 
-                <a href="https://youtu.be/I1Lyocgj0M4" class="project-card reveal-text" target="_blank" rel="noopener noreferrer">
+                <a href="https://youtu.be/I1Lyocgj0M4" class="project-card reveal-text" data-platform="govt" target="_blank" rel="noopener noreferrer">
                     <div class="project-card-header">
                         <h3>Civil Defense VR</h3>
-                        <span class="project-badge">Video Demo</span>
+                        <span class="project-badge badge-govt">Government</span>
                     </div>
                     <p class="project-card-desc">Government-grade VR training system for civil defense operations with realistic simulations and emergency response scenarios.</p>
                     <div class="project-card-tags">
@@ -287,10 +413,10 @@
                     <span class="project-card-arrow">→</span>
                 </a>
 
-                <a href="https://youtu.be/EnRGWVXgOus" class="project-card reveal-text" target="_blank" rel="noopener noreferrer">
+                <a href="https://youtu.be/EnRGWVXgOus" class="project-card reveal-text" data-platform="govt" target="_blank" rel="noopener noreferrer">
                     <div class="project-card-header">
                         <h3>Labs For Home</h3>
-                        <span class="project-badge">Video Demo</span>
+                        <span class="project-badge badge-govt">Education</span>
                     </div>
                     <p class="project-card-desc">Interactive home laboratory simulation for educational purposes with hands-on learning experiences.</p>
                     <div class="project-card-tags">
@@ -301,10 +427,10 @@
                     <span class="project-card-arrow">→</span>
                 </a>
 
-                <a href="https://youtu.be/D_eH1XC2uh8" class="project-card reveal-text" target="_blank" rel="noopener noreferrer">
+                <a href="https://youtu.be/D_eH1XC2uh8" class="project-card reveal-text" data-platform="demo" target="_blank" rel="noopener noreferrer">
                     <div class="project-card-header">
                         <h3>GVS (MeetinVR)</h3>
-                        <span class="project-badge">Video Demo</span>
+                        <span class="project-badge badge-demo">Multiplayer</span>
                     </div>
                     <p class="project-card-desc">Virtual meeting platform with immersive VR environments for collaborative communication and remote presence.</p>
                     <div class="project-card-tags">
@@ -315,10 +441,10 @@
                     <span class="project-card-arrow">→</span>
                 </a>
 
-                <a href="https://youtu.be/P_mD6-kXh8M" class="project-card reveal-text" target="_blank" rel="noopener noreferrer">
+                <a href="https://youtu.be/P_mD6-kXh8M" class="project-card reveal-text" data-platform="demo" target="_blank" rel="noopener noreferrer">
                     <div class="project-card-header">
                         <h3>CowBoy Project</h3>
-                        <span class="project-badge">Video Demo</span>
+                        <span class="project-badge badge-demo">Action Game</span>
                     </div>
                     <p class="project-card-desc">Action-packed game project showcasing advanced game mechanics, AI systems, and immersive gameplay design.</p>
                     <div class="project-card-tags">
@@ -581,7 +707,7 @@
                                 <p>+20 101 780 0204</p>
                             </div>
                         </a>
-                        <a href="https://linkedin.com/in/mostafa-mahmoud-abdelrahman" target="_blank" rel="noopener noreferrer" class="contact-method reveal-text">
+                        <a href="https://www.linkedin.com/in/mostafa-mahmoud-abdelrahman" target="_blank" rel="noopener noreferrer" class="contact-method reveal-text">
                             <span class="contact-icon">🔗</span>
                             <div>
                                 <strong>LinkedIn</strong>
@@ -597,18 +723,21 @@
                         </a>
                     </div>
                 </div>
-                <form class="contact-form reveal-text" id="contact-form">
+                <form class="contact-form reveal-text" id="contact-form" novalidate>
                     <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <label for="name" class="visually-hidden">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required autocomplete="name">
                     </div>
                     <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <label for="email" class="visually-hidden">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required autocomplete="email">
                     </div>
                     <div class="form-group">
+                        <label for="message" class="visually-hidden">Your Message</label>
                         <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Send Message</button>
-                    <p class="form-status" id="form-status"></p>
+                    <p class="form-status" id="form-status" aria-live="polite" role="status"></p>
                 </form>
             </div>
         </div>
@@ -636,7 +765,7 @@
                 <div class="footer-section">
                     <h4>Connect</h4>
                     <div class="social-links">
-                        <a href="https://linkedin.com/in/mostafa-mahmoud-abdelrahman" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn">
+                        <a href="https://www.linkedin.com/in/mostafa-mahmoud-abdelrahman" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn">
                             <span>🔗</span> LinkedIn
                         </a>
                         <a href="mailto:drshdrsh26@yahoo.com" class="social-icon" title="Email">

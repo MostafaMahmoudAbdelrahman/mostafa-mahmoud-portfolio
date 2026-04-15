@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Sent — Mostafa Mahmoud</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .thankyou-card {
+            background: var(--card-bg);
+            border: 1px solid rgba(0, 212, 255, 0.2);
+            border-radius: 20px;
+            padding: 3rem 4rem;
+            max-width: 520px;
+            width: 90%;
+            box-shadow: 0 0 40px rgba(0, 212, 255, 0.15);
+        }
+        .thankyou-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+        .thankyou-card h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #00d4ff, #ff006e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .thankyou-card p {
+            color: var(--text-secondary, #a0a0b0);
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+    </style>
+</head>
+<body>
+    <div id="particle-container"></div>
+    <div class="thankyou-card">
+        <div class="thankyou-icon">✅</div>
+        <h1>Message Received!</h1>
+        <p>Thank you for reaching out. I'll get back to you as soon as possible — usually within 24 hours.</p>
+        <a href="index.html" class="btn btn-primary">Back to Portfolio</a>
+    </div>
+    <script src="particles.js"></script>
+</body>
+</html>

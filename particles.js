@@ -2,7 +2,7 @@ class ParticleSystem {
     constructor() {
         this.container = document.getElementById('particle-container');
         this.particles = [];
-        this.particleCount = 30; // Reduced from 100
+        this.particleCount = window.innerWidth <= 480 ? 8 : (window.innerWidth <= 768 ? 15 : 30);
         this.init();
         this.animate();
     }
@@ -23,7 +23,7 @@ class ParticleSystem {
         const duration = Math.random() * 20 + 10;
         const delay = Math.random() * 5;
         
-        const colors = ['#ffd60a', '#c0c0c0', '#00d4ff', '#ff006e'];
+        const colors = ['#38bdf8', '#818cf8', '#fb923c', '#a78bfa'];
         const color = colors[Math.floor(Math.random() * colors.length)];
         
         particle.style.cssText = `
