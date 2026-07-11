@@ -1045,6 +1045,64 @@ body {
     margin-top: 50px;
 }
 
+/* Case Studies Section */
+.case-studies {
+    padding: 150px 0;
+    position: relative;
+    z-index: 10;
+    margin-top: 50px;
+}
+
+.case-studies-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.case-study-card {
+    background: var(--card-bg);
+    padding: 2.25rem;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--card-border);
+    backdrop-filter: blur(15px);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.case-study-card:hover {
+    border-color: rgba(56, 189, 248, 0.45);
+    box-shadow: 0 12px 50px rgba(0, 0, 0, 0.35), 0 0 30px rgba(56, 189, 248, 0.1);
+}
+
+.case-study-card > p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.case-study-card .project-title {
+    font-size: 1.5rem;
+}
+
+.case-study-videos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.case-study-videos .video-wrapper {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgba(56, 189, 248, 0.25);
+}
+
+.case-study-video-caption {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
 /* Projects Grid Section */
 .projects-grid-section {
     padding: 150px 0;
@@ -2448,6 +2506,7 @@ body {
 
     .expertise-card,
     .project-card,
+    .case-study-card,
     .nanodegree-card {
         padding: 1rem;
     }
@@ -2535,6 +2594,7 @@ body {
     :root:not([data-theme="dark"]) .expertise-card,
     :root:not([data-theme="dark"]) .experience-item,
     :root:not([data-theme="dark"]) .project-card,
+    :root:not([data-theme="dark"]) .case-study-card,
     :root:not([data-theme="dark"]) .skill-category,
     :root:not([data-theme="dark"]) .contact-form,
     :root:not([data-theme="dark"]) .cert-link,
@@ -2543,6 +2603,7 @@ body {
     :root:not([data-theme="dark"]) .education-card { box-shadow: 0 2px 12px rgba(15, 23, 42, 0.08); }
     :root:not([data-theme="dark"]) .expertise-card:hover,
     :root:not([data-theme="dark"]) .project-card:hover,
+    :root:not([data-theme="dark"]) .case-study-card:hover,
     :root:not([data-theme="dark"]) .skill-category:hover { box-shadow: 0 8px 30px rgba(2, 132, 199, 0.18); }
     :root:not([data-theme="dark"]) .form-group input,
     :root:not([data-theme="dark"]) .form-group textarea {
@@ -2627,6 +2688,7 @@ body {
 [data-theme="light"] .expertise-card,
 [data-theme="light"] .experience-item,
 [data-theme="light"] .project-card,
+[data-theme="light"] .case-study-card,
 [data-theme="light"] .skill-category,
 [data-theme="light"] .contact-form,
 [data-theme="light"] .cert-link,
@@ -2635,6 +2697,7 @@ body {
 [data-theme="light"] .education-card { box-shadow: 0 2px 12px rgba(15, 23, 42, 0.08); }
 [data-theme="light"] .expertise-card:hover,
 [data-theme="light"] .project-card:hover,
+[data-theme="light"] .case-study-card:hover,
 [data-theme="light"] .skill-category:hover { box-shadow: 0 8px 30px rgba(2, 132, 199, 0.18); }
 [data-theme="light"] .form-group input,
 [data-theme="light"] .form-group textarea {
@@ -2672,7 +2735,7 @@ body {
     transition: background-color 0.35s ease, border-color 0.35s ease,
                 color 0.35s ease, box-shadow 0.35s ease;
 }
-.btn, .project-card, .expertise-card, .skill-category,
+.btn, .project-card, .case-study-card, .expertise-card, .skill-category,
 .hamburger span, .nav-link, .theme-toggle, .timeline-dot,
 .profile-pic, .stat-item {
     transition: background-color 0.35s ease, border-color 0.35s ease,
