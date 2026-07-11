@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // ─── 3D Card Tilt Effect ──────────────────────────────────────────────────
 function initCardTilt() {
-    const cards = document.querySelectorAll('.project-card, .expertise-card, .skill-category');
+    const cards = document.querySelectorAll('.project-card, .expertise-card, .skill-category, .teaser-card');
     cards.forEach(card => {
         card.addEventListener('mousemove', (e) => {
             const rect = card.getBoundingClientRect();
@@ -183,30 +183,79 @@ function initCardTilt() {
 
 document.addEventListener('DOMContentLoaded', initCardTilt);
 
-// ─── Smooth Scroll ────────────────────────────────────────────────────────
+// ─── Mobile Menu Toggle (drawer) ──────────────────────────────────────────
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
+const navOverlay = document.querySelector('.nav-overlay');
+
+function closeMobileMenu() {
+    navMenu?.classList.remove('open');
+    navOverlay?.classList.remove('open');
+    hamburger?.classList.remove('active');
+    hamburger?.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+}
+
+function openMobileMenu() {
+    navMenu?.classList.add('open');
+    navOverlay?.classList.add('open');
+    hamburger?.classList.add('active');
+    hamburger?.setAttribute('aria-expanded', 'true');
+    document.body.style.overflow = 'hidden';
+}
+
+if (hamburger && navMenu) {
+    hamburger.addEventListener('click', () => {
+        navMenu.classList.contains('open') ? closeMobileMenu() : openMobileMenu();
+    });
+
+    navOverlay?.addEventListener('click', closeMobileMenu);
+
+    navMenu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', closeMobileMenu);
+    });
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeMobileMenu();
+    });
+}
+
+// ─── Smooth Scroll (in-page anchors only) ─────────────────────────────────
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
         const target = document.querySelector(this.getAttribute('href'));
         if (target) {
             target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            // Close mobile menu if open
-            if (navMenu) navMenu.style.display = '';
+            closeMobileMenu();
         }
     });
 });
 
-// ─── Mobile Menu Toggle ───────────────────────────────────────────────────
-const hamburger = document.querySelector('.hamburger');
-const navMenu = document.querySelector('.nav-menu');
-
-if (hamburger) {
-    hamburger.addEventListener('click', () => {
-        const isOpen = navMenu.style.display === 'flex';
-        navMenu.style.display = isOpen ? 'none' : 'flex';
-        hamburger.setAttribute('aria-expanded', String(!isOpen));
+// ─── YouTube click-to-load facades ─────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.yt-facade').forEach(facade => {
+        const loadEmbed = () => {
+            const id = facade.dataset.ytId;
+            const title = facade.dataset.ytTitle || 'YouTube video';
+            const iframe = document.createElement('iframe');
+            iframe.src = `https://www.youtube.com/embed/${id}?autoplay=1&rel=0`;
+            iframe.title = title;
+            iframe.frameBorder = '0';
+            iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+            iframe.allowFullscreen = true;
+            iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+            facade.replaceWith(iframe);
+        };
+        facade.addEventListener('click', loadEmbed);
+        facade.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                loadEmbed();
+            }
+        });
     });
-}
+});
 
 // ─── Navbar scroll behavior ───────────────────────────────────────────────
 let scrollTimeout;
