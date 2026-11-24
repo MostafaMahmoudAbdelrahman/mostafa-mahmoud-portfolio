@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mostafamahmoudabdelrahman.github.io/mostafa-mahmoud-portfolio/sitemap.xml

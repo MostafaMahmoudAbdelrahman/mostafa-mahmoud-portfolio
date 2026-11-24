@@ -69,8 +69,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // ─── Typewriter Effect ─────────────────────────────────────────────────────
 const typewriterRoles = [
-    'Unity & VR Developer',
-    'XR Experience Architect',
+    'Unity Game Developer',
+    'Mobile & Multiplayer Games',
+    'VR / XR Experiences',
     'Co-Founder @ Studio Ajaib',
     'Game Systems Engineer',
     'Tech Lead & Mentor',
@@ -357,7 +358,7 @@ window.addEventListener('load', () => {
                 throw new Error(data.message || 'Failed to send');
             }
         } catch {
-            statusElement.textContent = '✗ Error sending. Please email: drshdrsh26@yahoo.com';
+            statusElement.textContent = '✗ Error sending. Please email: mostafamahmoudabdelrahman5@gmail.com';
             statusElement.className = 'form-status error';
         } finally {
             submitBtn.disabled = false;
