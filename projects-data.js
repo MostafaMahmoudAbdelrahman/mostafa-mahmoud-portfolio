@@ -76,7 +76,7 @@ window.PROJECTS = [
     links: [["Experience", "experience.html"]], preview: "resources/previews/naga.mp4"
   },
   {
-    id: "threat-slicer", featured: 5, cover: "resources/games/threat-slicer-cover.webp", logo: "resources/games/threat-slicer-logo.webp", shots: ["resources/shots/threat-slicer-1.webp", "resources/shots/threat-slicer-2.webp", "resources/shots/threat-slicer-3.webp"], yt: "7jd3CmImBIw", cats: ["vr"], badge: "VR", mono: "TS", hue: 280,
+    id: "threat-slicer", cover: "resources/games/threat-slicer-cover.webp", logo: "resources/games/threat-slicer-logo.webp", shots: ["resources/shots/threat-slicer-1.webp", "resources/shots/threat-slicer-2.webp", "resources/shots/threat-slicer-3.webp"], yt: "7jd3CmImBIw", cats: ["vr"], badge: "VR", mono: "TS", hue: 280,
     name: "Threat Slicer", award: "CyberX",
     tagline: "Red saber for threats, green for safe",
     desc: "Two sabers, flying security situations: hit threats with the red saber and safe items with the green one, building a combo multiplier with every correct hit. A fixed 75-second session ends with a learning recap of your mistakes and why they matter, then an event leaderboard.",
@@ -94,7 +94,7 @@ window.PROJECTS = [
     links: [["Experience", "experience.html"]], preview: "resources/previews/firewall-fists.mp4"
   },
   {
-    id: "firewall-legion", cover: "resources/games/firewall-legion-cover.webp", logo: "resources/games/firewall-legion-logo.webp", shots: ["resources/shots/firewall-legion-1.webp", "resources/shots/firewall-legion-2.webp", "resources/shots/firewall-legion-3.webp"], yt: "q8-KDI15dB8", cats: ["vr"], badge: "VR", mono: "FL", hue: 18,
+    id: "firewall-legion", featured: 5, cover: "resources/games/firewall-legion-cover.webp", logo: "resources/games/firewall-legion-logo.webp", shots: ["resources/shots/firewall-legion-1.webp", "resources/shots/firewall-legion-2.webp", "resources/shots/firewall-legion-3.webp"], yt: "q8-KDI15dB8", cats: ["vr"], badge: "VR", mono: "FL", hue: 18,
     name: "Firewall Legion", award: "CyberX",
     tagline: "Lead your legion through security decisions",
     desc: "An educational runner: you lead an auto-running legion along a desert road. Before each gate a security scenario appears; judge it safe or risky and steer into the right gate. Good calls grow the army, bad ones shrink it, and the legion battles enemy waves up to the final fight with the Ransomware Lord.",
