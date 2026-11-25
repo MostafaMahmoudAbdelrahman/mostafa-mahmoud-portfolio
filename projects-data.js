@@ -186,5 +186,77 @@ window.PROJECTS = [
     highlights: ["Virtual mall with 300+ real stores", "Avatars and character customisation", "Photon PUN multiplayer with voice and text chat"],
     spec: {"Engine": "Unity · C#", "Platform": "Android · iOS", "Role": "Unity 3D Developer", "Studio": "bluezone web", "Year": "2021–2024"},
     links: [["Android", "https://apkpure.com/my-mall/com.bluezone.mymall/"], ["iOS", "https://apps.apple.com/hr/app/mymall"]], preview: "resources/previews/mymall.mp4"
+  },
+  {
+    id: "cyber-dodge", cover: "resources/games/cyber-dodge-cover.webp", logo: "resources/games/cyber-dodge-logo.webp", shots: ["resources/shots/cyber-dodge-1.webp", "resources/shots/cyber-dodge-2.webp", "resources/shots/cyber-dodge-3.webp"], yt: "zHT-IPMhNDU", cats: ["vr"], badge: "VR",
+    name: "Glitch Dash", award: "CyberX",
+    tagline: "Dodge threats with your whole body",
+    desc: "A VR runner where players dodge obstacles with real body movement (duck, lean, sidestep) and stop at 10 True/False cybersecurity question gates. A wrong answer costs health instead of ending the run.",
+    highlights: ["Dodge obstacles physically", "Answer the gate questions", "Finish the track with health left"],
+    spec: {"Engine": "Unity · C#", "Platform": "Meta Quest", "Role": "Unity Developer", "Studio": "CyberX World", "Year": "2024–2026"},
+    links: [["Experience", "experience.html"]], preview: "resources/previews/cyber-dodge.mp4"
+  },
+  {
+    id: "clean-desk-vr", cover: "resources/games/clean-desk-vr-cover.webp", logo: "resources/games/clean-desk-vr-logo.webp", shots: ["resources/shots/clean-desk-vr-1.webp", "resources/shots/clean-desk-vr-2.webp", "resources/shots/clean-desk-vr-3.webp"], yt: "I3c9QKvgS_o", cats: ["vr", "web"], badge: "VR + Web",
+    name: "Clean Sweep", award: "CyberX",
+    tagline: "Spot the violation before anyone else does",
+    desc: "A spot-the-violation trainer: walk up to a desk and quickly identify what should not be left out, with an explanation of each risk. Runs on Meta Quest and in the browser.",
+    highlights: ["Approach the desk", "Identify violations", "Learn why each is risky"],
+    spec: {"Engine": "Unity · C#", "Platform": "Meta Quest · WebGL", "Role": "Unity Developer", "Studio": "CyberX World", "Year": "2024–2026"},
+    links: [["Experience", "experience.html"]], preview: "resources/previews/clean-desk-vr.mp4"
+  },
+  {
+    id: "clean-desk-ranger", cover: "resources/games/clean-desk-ranger-cover.webp", logo: "resources/games/clean-desk-ranger-logo.webp", shots: ["resources/shots/clean-desk-ranger-1.webp", "resources/shots/clean-desk-ranger-2.webp", "resources/shots/clean-desk-ranger-3.webp"], yt: "Imqjle9tqb0", cats: ["vr", "web"], badge: "VR + Web",
+    name: "Desk Detective", award: "CyberX",
+    tagline: "A security incident at every desk. Find the cause.",
+    desc: "A VR investigation game in a realistic office. Strange security incidents have happened and “Abu Fahd” asks for your help. In each mission you visit an employee, question them through branching dialogue, then inspect their desk up close to find the mistake behind the incident. Fully voiced in Modern Standard Arabic with animated characters.",
+    highlights: ["Hear the incident report", "Go to the employee's desk and question them", "Inspect the evidence up close: safe or unsafe?", "Score points and move to the next case"],
+    spec: {"Engine": "Unity · C#", "Platform": "Meta Quest · Web", "Role": "Unity Developer", "Studio": "CyberX World", "Year": "2024–2026"},
+    links: [["Experience", "experience.html"]], preview: "resources/previews/clean-desk-ranger.mp4"
+  },
+  {
+    id: "knowledge-challenge", cover: "resources/games/knowledge-challenge-cover.webp", logo: "resources/games/knowledge-challenge-logo.webp", shots: ["resources/shots/knowledge-challenge-1.webp", "resources/shots/knowledge-challenge-2.webp", "resources/shots/knowledge-challenge-3.webp"], yt: "bFwujq4r7Ec", cats: ["web"], badge: "Web",
+    name: "Security Radar", award: "CyberX",
+    tagline: "Spot the hidden risks in realistic work scenes",
+    desc: "A set of interactive screens built on realistic scenes: the office desk, data leakage, social engineering, device security, data protection, working from home, a phishing email and a fake online store. Players scan each scene and tap every item that poses a risk before time runs out; every wrong tap costs a life.",
+    highlights: ["Scan the scene", "Tap every risky item", "Careful: wrong taps are limited"],
+    spec: {"Engine": "Unity · C#", "Platform": "WebGL · Touch screen", "Role": "Unity Developer", "Studio": "CyberX World", "Year": "2024–2026"},
+    links: [["Experience", "experience.html"]], preview: "resources/previews/knowledge-challenge.mp4"
+  },
+  {
+    id: "snakes-ladders", cover: "resources/games/snakes-ladders-cover.webp", logo: "resources/games/snakes-ladders-logo.webp", shots: ["resources/shots/snakes-ladders-1.webp", "resources/shots/snakes-ladders-2.webp", "resources/shots/snakes-ladders-3.webp"], yt: "8WiAOT86O5s", cats: ["web"], badge: "Web",
+    name: "Climb Safe", award: "CyberX",
+    tagline: "Roll the dice, answer a security question, climb to the top",
+    desc: "The classic Snakes & Ladders with an awareness twist: before every move the player answers a cybersecurity question (passwords, phishing, MFA, public Wi-Fi, ransomware...). A right answer moves the pawn by the dice roll; a wrong one costs the turn. Play against the computer or colleagues until someone reaches square 100.",
+    highlights: ["Roll the dice", "Answer before time runs out", "Climb ladders, avoid snakes"],
+    spec: {"Engine": "Unity · C#", "Platform": "WebGL", "Role": "Unity Developer", "Studio": "CyberX World", "Year": "2024–2026"},
+    links: [["Experience", "experience.html"]], preview: "resources/previews/snakes-ladders.mp4"
+  },
+  {
+    id: "nabeeh", cover: "resources/games/nabeeh-cover.webp", logo: "resources/games/nabeeh-logo.webp", shots: ["resources/shots/nabeeh-1.webp", "resources/shots/nabeeh-2.webp", "resources/shots/nabeeh-3.webp"], yt: "e8_A336NAls", cats: ["web"], badge: "Web",
+    name: "Nabeeh", award: "CyberX",
+    tagline: "Several awareness corners in one game",
+    desc: "A browser game bundling several corners: Fake Store, Decision Wheel, Fraud Detection and a Password game, in Arabic and English.",
+    highlights: ["Choose a corner", "Play the challenge", "Collect points"],
+    spec: {"Engine": "Unity · C#", "Platform": "WebGL", "Role": "Unity Developer", "Studio": "CyberX World", "Year": "2024–2026"},
+    links: [["Experience", "experience.html"]], preview: "resources/previews/nabeeh.mp4"
+  },
+  {
+    id: "exhibitionx", cover: "resources/games/exhibitionx-cover.webp", logo: "resources/games/exhibitionx-logo.webp", shots: ["resources/shots/exhibitionx-1.webp", "resources/shots/exhibitionx-2.webp", "resources/shots/exhibitionx-3.webp"], yt: "wEzpBcYZZ3o", cats: ["web"], badge: "Web",
+    name: "Expo Quest", award: "CyberX",
+    tagline: "A 3D cybersecurity expo in your browser",
+    desc: "A 3D virtual tour of a cybersecurity exhibition hall: visitors pick a character and a first- or third-person camera, walk between booths, watch awareness content on the booth screens, then spin the quiz wheel and answer for an instant score. Keyboard and mouse, or on-screen touch controls on phones and kiosks.",
+    highlights: ["Pick your character and view", "Walk the booths, watch the screens", "Spin the wheel and answer"],
+    spec: {"Engine": "Unity · C#", "Platform": "WebGL · Touch screen", "Role": "Unity Developer", "Studio": "CyberX World", "Year": "2024–2026"},
+    links: [["Experience", "experience.html"]], preview: "resources/previews/exhibitionx.mp4"
+  },
+  {
+    id: "traps-x", cover: "resources/games/traps-x-cover.webp", logo: "resources/games/traps-x-logo.webp", shots: ["resources/shots/traps-x-1.webp", "resources/shots/traps-x-2.webp", "resources/shots/traps-x-3.webp"], yt: "oP3IK1l5wpw", cats: ["web"], badge: "Web",
+    name: "Trap Field", award: "CyberX",
+    tagline: "Cyber minesweeper: think before you click",
+    desc: "A cybersecurity-themed minesweeper. Players choose one of seven topics (Safe Browsing, Network Security, Anti-Spam, Password Security, Clean Office Policy, Data Leakage Prevention, Social Engineering) and a grid size (easy, medium, expert). Numbers on revealed squares count the neighbouring threats, and suspected threats can be flagged. Clicking a threat opens an awareness card that explains the attack and how to avoid it; uncovering every safe square shows a win card with protection tips.",
+    highlights: ["Choose a topic, then a grid size", "Click to reveal squares; use the numbers to avoid threats", "Flag suspicious squares", "Reveal every safe square to win"],
+    spec: {"Engine": "Unity · C#", "Platform": "WebGL", "Role": "Unity Developer", "Studio": "CyberX World", "Year": "2024–2026"},
+    links: [["Experience", "experience.html"]], preview: "resources/previews/traps-x.mp4"
   }
 ];
