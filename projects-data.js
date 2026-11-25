@@ -170,11 +170,11 @@ window.PROJECTS = [
     links: [["Meta Horizon Store", "https://www.meta.com/en-gb/experiences/riyadh-smart-city/25709698955285363/"]], preview: "resources/previews/riyadh-smart-city.mp4"
   },
   {
-    id: "mymall", cover: "resources/games/mymall-cover.webp", logo: "resources/games/mymall-logo.webp", shots: ["resources/shots/mymall-1.webp", "resources/shots/mymall-2.webp", "resources/shots/mymall-3.webp"], yt: "SxNYyPtDJp4", cats: ["mobile"], badge: "Mobile",
+    id: "mymall", cover: "resources/games/mymall-cover.webp", logo: "resources/games/mymall-logo.webp", shots: ["resources/shots/mymall-1.webp", "resources/shots/mymall-2.webp", "resources/shots/mymall-3.webp"], yt: "owZKHxo54ug", cats: ["mobile"], badge: "Mobile",
     name: "MyMall", award: "Multiplayer",
     tagline: "A metaverse-style 3D social shopping mall",
-    desc: "A 3D social e-commerce app: a virtual mall where real contracted stores display real products and players buy directly in the app. Photon multiplayer with voice and text chat lets friends meet in a lobby and shop together.",
-    highlights: ["Virtual mall with 300+ real stores", "Avatars and character customisation", "Photon PUN multiplayer with voice and text chat"],
+    desc: "A 3D social shopping mall for mobile. Players build an avatar, walk a three-floor mall of 300+ real stores, open a store to browse products, try items on, and buy in the app with cart, checkout and an in-app coin wallet. Friends meet in the same room, chat, call each other, join voice parties and shop together, with a mall map that guides them to any store.",
+    highlights: ["Three-floor 3D mall with 300+ real stores", "Avatar wardrobe with Gulf and casual outfits", "Store pages, cart, checkout and coin wallet", "Photon multiplayer: room chat, private chat, voice calls and parties", "Friends, invites and an interactive mall map"],
     spec: {"Engine": "Unity · C#", "Platform": "Android · iOS", "Role": "Unity 3D Developer", "Studio": "bluezone web", "Year": "2021–2024"},
     links: [["Android", "https://apkpure.com/my-mall/com.bluezone.mymall/"], ["iOS", "https://apps.apple.com/hr/app/mymall"]], preview: "resources/previews/mymall.mp4"
   },
