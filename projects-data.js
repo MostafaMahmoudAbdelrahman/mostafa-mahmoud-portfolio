@@ -170,7 +170,7 @@ window.PROJECTS = [
     links: [["Meta Horizon Store", "https://www.meta.com/en-gb/experiences/riyadh-smart-city/25709698955285363/"]], preview: "resources/previews/riyadh-smart-city.mp4"
   },
   {
-    id: "mymall", cover: "resources/games/mymall-cover.webp", logo: "resources/games/mymall-logo.webp", shots: ["resources/shots/mymall-1.webp", "resources/shots/mymall-2.webp", "resources/shots/mymall-3.webp"], yt: "owZKHxo54ug", cats: ["mobile"], badge: "Mobile",
+    id: "mymall", cover: "resources/games/mymall-cover.webp", logo: "resources/games/mymall-logo.webp", shots: ["resources/shots/mymall-1.webp", "resources/shots/mymall-2.webp", "resources/shots/mymall-3.webp"], yt: "acPzfNwsALg", cats: ["mobile"], badge: "Mobile",
     name: "MyMall", award: "Multiplayer",
     tagline: "A metaverse-style 3D social shopping mall",
     desc: "A 3D social shopping mall for mobile. Players build an avatar, walk a three-floor mall of 300+ real stores, open a store to browse products, try items on, and buy in the app with cart, checkout and an in-app coin wallet. Friends meet in the same room, chat, call each other, join voice parties and shop together, with a mall map that guides them to any store.",
