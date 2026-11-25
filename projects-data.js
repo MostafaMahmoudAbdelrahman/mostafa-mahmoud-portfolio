@@ -215,15 +215,6 @@ window.PROJECTS = [
     links: [["Experience", "experience.html"]], preview: "resources/previews/clean-desk-ranger.mp4"
   },
   {
-    id: "knowledge-challenge", cover: "resources/games/knowledge-challenge-cover.webp", logo: "resources/games/knowledge-challenge-logo.webp", shots: ["resources/shots/knowledge-challenge-1.webp", "resources/shots/knowledge-challenge-2.webp", "resources/shots/knowledge-challenge-3.webp"], yt: "bFwujq4r7Ec", cats: ["web"], badge: "Web",
-    name: "Security Radar", award: "CyberX",
-    tagline: "Spot the hidden risks in realistic work scenes",
-    desc: "A set of interactive screens built on realistic scenes: the office desk, data leakage, social engineering, device security, data protection, working from home, a phishing email and a fake online store. Players scan each scene and tap every item that poses a risk before time runs out; every wrong tap costs a life.",
-    highlights: ["Scan the scene", "Tap every risky item", "Careful: wrong taps are limited"],
-    spec: {"Engine": "Unity · C#", "Platform": "WebGL · Touch screen", "Role": "Unity Developer", "Studio": "CyberX World", "Year": "2024–2026"},
-    links: [["Experience", "experience.html"]], preview: "resources/previews/knowledge-challenge.mp4"
-  },
-  {
     id: "snakes-ladders", cover: "resources/games/snakes-ladders-cover.webp", logo: "resources/games/snakes-ladders-logo.webp", shots: ["resources/shots/snakes-ladders-1.webp", "resources/shots/snakes-ladders-2.webp", "resources/shots/snakes-ladders-3.webp"], yt: "8WiAOT86O5s", cats: ["web"], badge: "Web",
     name: "Climb Safe", award: "CyberX",
     tagline: "Roll the dice, answer a security question, climb to the top",
@@ -231,15 +222,6 @@ window.PROJECTS = [
     highlights: ["Roll the dice", "Answer before time runs out", "Climb ladders, avoid snakes"],
     spec: {"Engine": "Unity · C#", "Platform": "WebGL", "Role": "Unity Developer", "Studio": "CyberX World", "Year": "2024–2026"},
     links: [["Experience", "experience.html"]], preview: "resources/previews/snakes-ladders.mp4"
-  },
-  {
-    id: "nabeeh", cover: "resources/games/nabeeh-cover.webp", logo: "resources/games/nabeeh-logo.webp", shots: ["resources/shots/nabeeh-1.webp", "resources/shots/nabeeh-2.webp", "resources/shots/nabeeh-3.webp"], yt: "e8_A336NAls", cats: ["web"], badge: "Web",
-    name: "Nabeeh", award: "CyberX",
-    tagline: "Several awareness corners in one game",
-    desc: "A browser game bundling several corners: Fake Store, Decision Wheel, Fraud Detection and a Password game, in Arabic and English.",
-    highlights: ["Choose a corner", "Play the challenge", "Collect points"],
-    spec: {"Engine": "Unity · C#", "Platform": "WebGL", "Role": "Unity Developer", "Studio": "CyberX World", "Year": "2024–2026"},
-    links: [["Experience", "experience.html"]], preview: "resources/previews/nabeeh.mp4"
   },
   {
     id: "exhibitionx", cover: "resources/games/exhibitionx-cover.webp", logo: "resources/games/exhibitionx-logo.webp", shots: ["resources/shots/exhibitionx-1.webp", "resources/shots/exhibitionx-2.webp", "resources/shots/exhibitionx-3.webp"], yt: "wEzpBcYZZ3o", cats: ["web"], badge: "Web",
