@@ -366,3 +366,49 @@ window.addEventListener('load', () => {
         }
     });
 });
+
+// ─── Featured work cards: hover preview + project modal ─────────────────────
+document.addEventListener('DOMContentLoaded', () => {
+    const modal = document.querySelector('.work-modal');
+    if (!modal) return;
+    const videoBox = modal.querySelector('.work-modal-video');
+    const canHover = window.matchMedia('(hover: hover)').matches;
+
+    const closeModal = () => { videoBox.replaceChildren(); if (modal.open) modal.close(); };
+    modal.querySelector('.work-modal-close').addEventListener('click', closeModal);
+    modal.addEventListener('click', (e) => { if (e.target === modal) closeModal(); });
+    modal.addEventListener('close', () => videoBox.replaceChildren());
+
+    document.querySelectorAll('.work-card').forEach(card => {
+        const preview = card.querySelector('.work-preview');
+        if (canHover && preview) {
+            card.addEventListener('mouseenter', () => {
+                if (!preview.getAttribute('src')) preview.src = preview.dataset.src;
+                preview.play().then(() => card.classList.add('is-previewing')).catch(() => {});
+            });
+            card.addEventListener('mouseleave', () => {
+                card.classList.remove('is-previewing');
+                preview.pause();
+            });
+        }
+        const open = () => {
+            const iframe = document.createElement('iframe');
+            iframe.src = `https://www.youtube.com/embed/${card.dataset.ytId}?autoplay=1&rel=0`;
+            iframe.title = card.dataset.title;
+            iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+            iframe.allowFullscreen = true;
+            iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+            videoBox.replaceChildren(iframe);
+            modal.querySelector('h3').textContent = card.dataset.title;
+            modal.querySelector('.work-meta').textContent = card.querySelector('.work-meta').textContent;
+            modal.querySelector('.work-modal-details').replaceChildren(card.querySelector('.work-details').content.cloneNode(true));
+            card.classList.remove('is-previewing');
+            if (preview) preview.pause();
+            modal.showModal();
+        };
+        card.addEventListener('click', open);
+        card.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+        });
+    });
+});
