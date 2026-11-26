@@ -17,7 +17,7 @@ window.PROJECTS = [
       "Showcased at the World Governments Summit 2026 in Dubai",
       "Learned Unreal Engine in a two-month Futuregames program on building a complete game and founding a studio"
     ],
-    spec: { Engine: "Unreal Engine 5 · C++", Platform: "PC", Role: "Co-Founder & Lead Simulation Engineer", Studio: "Studio Ajaib", Year: "2026" },
+    spec: { Engine: "Unreal Engine 5 · C++", Platform: "PC", Role: "Co-Founder & Lead Game Developer", Studio: "Studio Ajaib", Year: "2026" },
     links: [["Experience", "experience.html"]], preview: "resources/previews/muhakah.mp4"
   },
   {
