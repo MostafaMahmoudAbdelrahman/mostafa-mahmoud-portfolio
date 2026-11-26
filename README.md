@@ -6,13 +6,12 @@ Mobile · Multiplayer · Web · XR
 
 <img src="resources/profile.jpg" alt="Mostafa Mahmoud" width="120" />
 
-Senior Unity developer with 8+ years shipping mobile, multiplayer, WebGL, and VR/XR games and simulations. Co-founder of Studio Ajaib — 1st Place at the Arab Youth Hackathon (AED 350K prize) with *Muhakah*, built in Unreal Engine 5.
+Senior Unity developer with 8+ years shipping mobile, multiplayer, WebGL, and VR/XR games and simulations.
 
 ## Currently
 
 - **Senior Unity Developer** — [CyberX World](https://www.cyberx.world/) (full-time, remote): cybersecurity-awareness games for WebGL, mobile, and Meta Quest.
 - **Senior Unity Developer** — [Gaming Club Studios](https://gamingclub.ae/) (part-time, remote): *Top Army: War League*, a mobile war strategy game in production.
-- **Co-founder** — [Studio Ajaib](https://studio-ajaib.com/): continuing *Muhakah* beyond the hackathon demo.
 
 ## On the site
 

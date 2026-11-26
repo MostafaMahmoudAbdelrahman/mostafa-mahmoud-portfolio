@@ -72,7 +72,6 @@ const typewriterRoles = [
     'Unity Game Developer',
     'Mobile & Multiplayer Games',
     'VR / XR Experiences',
-    'Co-Founder @ Studio Ajaib',
     'Game Systems Engineer',
     'Tech Lead & Mentor',
 ];
