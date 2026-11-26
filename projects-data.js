@@ -170,6 +170,15 @@ window.PROJECTS = [
     links: [["Meta Horizon Store", "https://www.meta.com/en-gb/experiences/riyadh-smart-city/25709698955285363/"]], preview: "resources/previews/riyadh-smart-city.mp4"
   },
   {
+    id: "portalverse", cover: "resources/games/portalverse-cover.webp", logo: "resources/games/portalverse-logo.webp", shots: ["resources/shots/portalverse-1.webp", "resources/shots/portalverse-2.webp", "resources/shots/portalverse-3.webp"], yt: "4iOY34R8aLU", cats: ["vr"], badge: "VR",
+    name: "PortalVerse XR", award: "AI voice",
+    tagline: "Interactive portals into 360\u00b0 factory tours",
+    desc: "Immersive 360\u00b0 experiences reached through interactive portals, with an optional AI voice assistant to guide exploration. Used for smart-manufacturing factory tours on Meta Quest.",
+    highlights: ["Portal hub that opens into 360° factory tours", "Optional AI voice assistant", "Published on the Meta Horizon Store"],
+    spec: {"Engine": "Unity · C#", "Platform": "Meta Quest", "Role": "Unity XR Developer", "Studio": "RMG", "Year": "2024–2026"},
+    links: [["Meta Horizon Store", "https://www.meta.com/en-gb/experiences/portalverse-xr/26848892038103128/"]], preview: "resources/previews/portalverse.mp4"
+  },
+  {
     id: "mymall", cover: "resources/games/mymall-cover.webp", logo: "resources/games/mymall-logo.webp", shots: ["resources/shots/mymall-1.webp", "resources/shots/mymall-2.webp", "resources/shots/mymall-3.webp"], yt: "acPzfNwsALg", cats: ["mobile"], badge: "Mobile",
     name: "MyMall", award: "Multiplayer",
     tagline: "A metaverse-style 3D social shopping mall",
